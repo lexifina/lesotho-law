@@ -1,4 +1,4 @@
-# Fuel and Services Control (Fue l Price Increase) Notice, 2004 and shal I come into operation on the I st June 2004
+# Fuel and Services Control (Fuel Price Increase) Notice 2004
 LEGAL NOTICE NO. 102 OF 2004
 Fuel and Services Control (Fuel Price Increase) Notice, 2004
 In exercise of the powers conferred on me by section 3( I) of the Fuel and Services
