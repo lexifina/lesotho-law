@@ -1,0 +1,137 @@
+# INDEPENDENT ELECTORAL COMMISSION(RECTIFICATION OF ERRORS OR OMISSIONS) (OMITTED VOTERS NAMES) PROCLAMATION 2003
+LEGAL NOTICE NO. 10 OF 2003
+INDEPENDENT ELECTORAL COMMISSION(RECTIFICATION
+OF ERRORS OR OMISSIONS) (OMITTED VOTERS NAMES)
+PROCLAMATION 2003
+In exercise of the powers conferred upon the Independent Electoral Commission
+by section 99(1) of the National Assembly Election Act 1992!':
+I,
+ABEL LESHELE THOAHLANE
+@m
+Chairman
+of
+the
+Independent
+Electoral
+Commission,
+make
+the
+following
+@ Proclamation:
+Citation and commencement
+l.
+This Proclamation may be cited as the Independent Electoral Commission
+(Rectification
+of Errors
+or Omissions) (Omitted Voters' Names) Proclamation
+2003 and shall come into operation on the date of publication in the Gazette.
+Rectification of Errors or Omissions
+2:
+The Final Voters Roll prepared by the Independent Electoral Commission
+in
+respect
+of MOTETE CONSTITUENCY NO.3,
+Polling Station No.0309/2
+Mohalenyane Primary School
+is rectified
+by adding the names
+set out
+in
+the
+Schedule
+to this Proclamation and inserting the respective photographs on
+the
+Roll,
+®
+,
+ABEL LESHELE THOAHLANE
+CHAIRMAN, INDEPENDENT ELECTORAL COMMISSION
+Act No.10 of 1992
+SURNAME
+MABONE
+HLOTSE
+SEBEKO
+MAKOETJANE
+TEFO
+SHASHA
+SHASHA
+NOOSI
+.
+MOHLABA
+SEBOLAI
+SELLO
+MAMONYOE
+SEKOATI
+FULL NAMES
+MAKARABO
+LINEO
+MAQOLOANA
+JAMES
+ABI ELLIOT
+THABISO
+‘MAFUSI
+*MAKAMOHELO
+KANTI
+LIPHAPANG
+SEPINARE
+MOSHOAO
+MOTS'EI
+‘*MANEO
+SCHEDULE
+REG. CENTRE
+MOHALENYANA
+P. SCHOOL
+MOHALENYANA
+P.SCHOOL
+MOHALENYANA
+MOHALENYANA
+P., SCHOOL
+MOHALENY ANA
+P. SCHOOL
+MOHALENYANA
+bP. SCHOOL
+MOHALENYANA
+P. SCHOOL
+MOHALENYANA
+P. SCHOOL
+MOHALENYANA
+P. SCHOOL
+MOHALENYANA
+P. SCHOOL
+MOHALENYANA
+P. SCHOOL
+MOHALENYANA
+P. SCHOOL
+MOHALENYANA
+P. SCHOOL
+VILLAGE
+MATLAONG
+MOHALENYAN 4
+MATLAONG
+MATLAONG
+MOHALENYANA
+MOHALENYANA
+MOHALENY ANA
+MOHALENYANA
+MOHALENY ANA
+MOHALENYANA
+MOHALENYANA
+MOHALENYANA
+MOHALENYANA
+DATE OF
+BIRTH
+26-12-1982
+OL-10-1984
+25-12-1959
+19-10-1984
+07-0-4- 1984
+05-04-1984
+20-07-1952
+17-11-1983
+17-01-1984
+10-01-1981
+**-0)2-1952
+17-02-1952
+03-03-1976
+Printed by
+the Government Printer. P.O. Box 268, Maseru 100
