@@ -1,0 +1,102 @@
+# SUPPLEMENTARY APPROPRIATION (2004/2005) ACT 2005
+ACT NO. 10 OF 2005
+SUPPLEMENTARY APPROPRIATION (2004/2005) ACT 2005
+An Act to make supplementary provision for the issue, from the Consolidated
+Fund of the Government of Lesotho, of the sums necessary to meet the supple-
+mentary public expenditure for certain purposes during the year ending on the
+thirty first day of March, 2005.
+Enacted by the Parliament of Lesotho
+Short title and commencement
+1.
+This Act may be cited as the Supplementary Appropriation
+(2004/2005) Act 2005 and shall be deemed to have come into operation on the
+first of April, 2004.
+Issue from the Consolidated Fund
+2.
+There may be issued from the Consolidated Fund the sum of
+M186,618,776 (One Hundred and Eighty Six Million, Six Hundred and
+Eighteen Thousand, Seven Hundred and Seventy Six Maloti) for the purposes
+specified in section 3.
+Purposes to which the money is to be applied
+3.
+The moneys granted by this Act shall be applied for the purposes of
+meeting the supplementary expenditure set out in the schedules being the
+aggregate of supplementary expenditure approved for each head.
+HEAD
+SCHEDULES
+SCHEDULE A: RECURRENT EXPENDITURE
+MINISTRY
+AGRICULTURE AND FOOD SECURITY
+HEALTH AND SOCIAL WELFARE
+EDUCATION AND TRAINING
+FINANCE AND DEVELOPMENT PLANNING
+TRADE AND INDUSTRY, COOPERATIVES
+AND MARKETING
+DEVELOPMENT PLANNING
+JUSTICE, HUMAN RIGHTS AND
+REHABILITATION
+HOME AFFAIRS AND PUBLIC SECURITY
+PRIME MINISTER'S OFFICE
+COMMUNICATIONS, SCIENCE AND
+TECHNOLOGY
+LAW AND CONSTITUTIONAL AFFAIRS
+FOREIGN AFFAIRS
+PUBLIC WORKS AND TRANSPORT
+NATURAL RESOURCES
+AUDITOR GENERAL'S OFFICE
+DEFENCE AND NATIONAL SECURITY
+NATIONAL ASSEMBLY
+LOCAL GOVERNMENT
+GENDER, YOUTH, SPORT AND RECREATION
+AMOUNT
+M
+13,000,000
+23,652,479
+4,349,697
+30,458,959
+661,917
+18,463,126
+9,959,153
+10,776,587
+2,097,492
+39,400
+5,025,550
+3,240,094
+770,043
+3,892,144
+187,481
+755,000
+3,096,033
+9,836,620
+2,773,147
+TOTAL
+M 143,034,922
+SCHEDULE B: CAPITAL EXPENDITURE
+HEAD
+MINISTRY
+AMOUNT
+M
+AGRICULTURE AND FOOD SECURITY
+386,747
+FINANCE AND DEVELOPMENT PLANNING
+4,788,620
+TRADE ND INDUSTRY, COOPERATIVES
+AND MARKETING
+43,917
+HOME AFFAIRS AND PUBLIC SAFETY
+950,000
+PRIME MINISTER'S OFFICE
+3,300,000
+COMMUNICATIONS, SCIENCE AND
+TECHNOLOGY
+2,596,667
+PUBLIC WORKS AND TRANSPORT
+15,371,836
+NATURAL RESOURCES
+1,547,500
+LOCAL GOVERNMENT
+10,000,000
+PUBLIC SERVICE
+4,598,567
+TOTAL
+M 43,583,854
