@@ -1,0 +1,3 @@
+# Long title
+An Act to repeal the Dangerous Medicines Act of 1973, to ensure the availability of certain drugs for exclusive medical, scientific and related purposes, while preventing their abuse; to prevent the diversion from lawful trade of controlled chemicals, controlled equipment and controlled materials for use in the unlawful manufacture of such drugs; to render drug trafficking and related conduct as serious criminal offences and to ensure that offenders or suspects are brought to justice; to render certain conduct by drug users as criminal offences, to provide for the treatment and rehabilitation of drug-abusing or dependent offenders; to establish the Lesotho Narcotics Bureau; and for related matters.
+Enacted by the Parliament of Lesotho.
