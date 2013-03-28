@@ -9,6 +9,9 @@ and includes a person who carries on the business of:
 (iii) financial leasing;
 (iv) money transmission services;
 (v) issuing and administering means of payment (such as credit cards, traveller's cheques and bankers' drafts);
+(va) bureau of exchange;
+(vb) providers of money; or
+(vc) value transfer services;
 (vi) guarantee and commitments;
 (vii) trading for own account or for account of customers in money market instruments (such as cheques, bills, certificates of deposit), foreign exchange, financial futures and options, exchange and interest rate instruments, and transferable securities;
 (viii) underwriting share issues and participation in such issues;
