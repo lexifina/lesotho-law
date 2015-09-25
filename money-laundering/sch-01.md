@@ -29,6 +29,7 @@ or the Societies Act 1966;
 (xix) casino and lottery;
 (xx) buying or selling of gold bullion;
 (xxi) dealers in precious stones;
+(xxia) motor vehicle dealership;
 (xxii) company service providers; and
 (xxiii) any other person or institution who may be declared as such by the Minister by notice in the Gazette.
 [Footnote 7: Order No. 25 of 1989]
