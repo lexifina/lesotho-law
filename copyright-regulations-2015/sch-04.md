@@ -1,0 +1,12 @@
+# Schedule IV (Regulation 16(5)(c))
+Beneficiary form Surname ______________________________
+Names ________________________________
+Date of birth ____________________________
+Marital status ____________________________
+Spouse ________________________________
+Gender __________________________________
+Number of children ________________________
+Residential address ________________________
+Cell __________________________________
+Beneficiary _____________________________
+Beneficiary’s passport ______________________

@@ -1,0 +1,13 @@
+# Schedules
+Schedule I (Regulation 5(2)(a))
+Registration form Surname _______________________________
+Names _______________________________
+Date of birth ___________________________
+Marital status ____________________________
+Spouse _______________________________
+Gender _______________________________
+Number of children ________________________
+Residential address _________________________
+Cell _________________________________
+Beneficiary _____________________________
+Beneficiary’s passport ______________________
