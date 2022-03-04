@@ -1,0 +1,394 @@
+# Fuel and Services Control (Fuel Price) Notice 2022
+LEGAL NOTICE NO. 14 OF 2022
+Fuel and Services Control (Fuel Price) Notice, 2022
+Pursuant to section 3(1)(c) of the Fuel and Services Control Act, 1983
+1 and in ex-
+ercise of the powers conferred on me by the Fuel and Services Control
+(Delegation) Notice, 20212, I,
+THATO MOHASOA
+Chief Executive Officer, Petroleum Fund Secretariat, make the following
+Notice:
+Citation and commencement
+1.
+This Notice may be cited as the Fuel and Services Control (Fuel Price)
+Notice, 2022 and shall come into operation on the 4th March, 2022.
+Interpretation
+2.
+In this Notice, unless the context otherwise requires -
+“Lowlands” include Quthing, Qacha’s Nek and Mount Moorosi;
+“Pump price” means the cost price of fuel reflected on the fuel pump.
+Fuel prices
+3.
+(1)
+The fuel prices for Lowlands, Mokhotlong, Mphaki and
+Thaba-Tseka are as follows:
+PUBLIC PRICES MARCH, 2022
+GOVERNMENT PRICES
+Petrol
+Petrol
+Diesel
+IP
+Petrol
+Petrol
+Diesel Diesel
+50ppm
+50ppm
+50ppm
+Lowlands (Zone 1)
+Wholesale price excluding VAT
+1487,9
+1500,9
+1527,0
+1290,0
+1302,9
+1315,9
+1332,0
+654.2
+Dealer Margin
+112,1
+112,1
+112,1
+100,0
+0.0
+0.0
+0.0
+0.0
+VAT @ 15% payable by dealer
+240,0
+242,0
+245,9
+195,4
+197,4
+199,8
+98.1
+Retail Price including VAT
+MPHAKI (ZONE 2)
+Zone 1 wholesale price excluding VAT
+1487,9
+1500,9
+1527,0
+1290,0
+1302,9
+1315,9
+1332,0
+654.2
+Zone additional delivery
+0,0
+0,0
+0,0
+0,0
+5,0
+5,0
+5,0
+5.0
+5.0
+differential
+Zone 2 Wholesale price excluding VAT
+1487,9
+1500,9
+1527,0
+1290,0
+1307,9
+1320,9
+1337,0
+659.2
+Dealer Margin
+112,1
+112,1
+112,1
+100.0
+0.0
+0.0
+0.0
+0.0
+VAT payable
+240,0
+242,0
+245,9
+196,2
+198,1
+200,5
+92.3
+Retail Price including VAT
+Thaba-Tseka (Zone 3)
+Zone 1 Wholesale price excluding VAT
+1487,9
+1500,9
+1527,0
+1290,0
+1302,9
+1315,9
+1332,0
+654.2
+Zone 3 additional delivery differential
+0,0
+0,0
+0,0
+0,0
+8,0
+8,0
+8,0
+8.0
+Zone 3 wholesale price excluding VAT
+1487,9
+1500,9
+1527,0
+1290,00
+1310,9
+1323,9
+1340,0
+662.2
+Dealer Margin
+112,1
+112,1
+112,1
+100,0
+0,0
+0,0
+0,0
+0.0
+VAT payable
+240,0
+242,0
+245,9
+196,6
+198,6
+201,0
+92.7
+Retail Price including VAT
+Mokhotlong (Zone 4)
+Zone 1 Wholesale price excluding VAT
+1487,9
+1500,9
+1527,0
+1290,0
+1302,9
+1315,9
+1332,0
+654.2
+Zone 4 additional delivery differential
+0,0
+0.0
+0,0
+0,0
+16,0
+16,0
+16,0
+16.0
+Zone 4 Wholesale price excluding VAT
+1487,9
+1500,9
+1527,0
+1290,0 1318,9 1331,9 1348,0 Margin
+112.1
+Dealer Margin
+112,1
+112,1
+112,1
+100,0
+0,0
+0,0 0,0
+VAT payable
+240,0
+242,0
+245,9
+197,8
+199,8
+202,2
+Retail Price including VAT
+FUEL PRICE ADJUSTMENTS
+COMMERCIAL CUSTOMERS PRICES MARCH, 2022
+Petrol
+Petrol
+Diesel
+IP
+Petrol
+Petrol
+Diesel Diesel
+50ppm
+LR
+UL
+500ppm
+50ppm
+Lowlands (Zone 1)
+Wholesale price excluding VAT
+1487,9
+1500,9 1527,0
+1290,0
+858.0
+858.0
+883.1
+900.6
+VAT payable @ 15%
+223,2
+225,1
+229,0
+N/A
+0.0
+0.0
+0.0
+0.0
+VAT @ 14% payable by dealer
+122.2
+122.2
+122.8
+125.9
+120.1
+120.1
+123.6
+126.1
+Wholesale Price including VAT
+978.1
+978.1
+1006.7
+1026.7
+MPHAKI (ZONE 2)
+Zone 1 wholesale price excluding VAT
+1487,9
+1500,9
+1527,0
+1290,0
+858.0
+858.0
+883.1
+900.6
+Zone additional delivery
+5,0
+5,0
+5,0
+5,0
+0.0
+0.0
+0.0
+0.0
+differential
+Zone 2 Wholesale price excluding VAT
+1492,9
+1505,9
+1532,0
+1295,0
+VAT payable
+223,9
+225,9
+229,8
+N/A
+0.0
+0.0
+0.0
+0.0
+Wholesale Price including VAT
+978.1
+978.1
+1006.7
+1026.7
+Thaba-Tseka (Zone 3)
+Zone 1 Wholesale price excluding VAT
+1487,9
+1500,9
+1527,0
+1290,0
+858.0
+858.0
+883.1
+900.6
+Zone 3 additional delivery differential
+8,0
+8,0
+8,0
+8,0
+8.0
+0.0
+0.0
+0.0
+0.0
+Zone 3 Wholesale price excluding VAT
+1495,9
+1508,9
+1535,0
+1298,0
+593.0
+858.0
+858.0
+883.1
+900.6
+0.0
+0.0
+0.0
+0.0
+VAT payable
+224,4
+226,3
+230,2
+N/A
+120.1
+120.1
+123.6
+126.1
+Wholesale Price including VAT
+978.1
+978.1
+1006.7
+1026.7
+Mokhotlong (Zone 4)
+Zone 1 Wholesale price excluding VAT
+1487,9
+1500,9
+1527,0
+1290,0
+585.0
+858.0
+858.0
+883.1
+900.6
+Zone 4 additional delivery differential
+16,0
+16,0
+16,0
+16,0
+16.0
+0.0
+0.0
+0.0
+0.0
+Zone 4 Wholesale price excluding VAT
+1503,9
+1516,9
+1543,0
+1306,0
+858.0
+858.0
+883.1
+900.6
+120.1
+120.1
+123.6
+126.1
+VAT Payable
+225,6
+227,5
+231,4
+N/A
+Wholesale Price Incl. VAT
+978.1
+978.1
+1006.7
+1026.7
+(2)
+An owner of an outlet shall ensure that the pump price is re-
+flected on the pump at the time of the sale.
+(3)
+All the prices are in lisente per litre (L/l).
+Repeal
+4.
+The Fuel and Services Control (Fuel Price) Notice, 2022
+3 is repealed.
+T. MOHASOA
+CHIEF EXECUTIVE OFFICER,
+PETROLEUM FUND SECRETARIAT
+NOTE
+1.
+Act No. 23 of 1983
+2.
+L.N. No. 32 of 2021
+3.
+L.N. No. 7 of 2022
