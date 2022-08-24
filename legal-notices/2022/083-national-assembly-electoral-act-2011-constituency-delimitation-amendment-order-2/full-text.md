@@ -1,4 +1,4 @@
-# National Assembly Electoral Act 2011
+# National Assembly Electoral Act 2011 Constituency Delimitation (Amendment) Order 2022
 LEGAL NOTICE NO. 83 OF 2022
 National Assembly Electoral Act, 2011
 1 Constituency Delimitation
