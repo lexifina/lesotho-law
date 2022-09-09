@@ -1,4 +1,4 @@
-# Tenth Amendment to the Constitution Act 2022
+# Tenth Amendment to the Constitution Act 2022 Rectification of Errors Notice 2022
 LEGAL NOTICE NO. 87 OF 2022
 Tenth Amendment to the Constitution Act, 2022
 Rectification of Errors Notice, 2022
