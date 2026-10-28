@@ -27,6 +27,7 @@ import constitution  # noqa: E402
 
 corpus, report = peachjam.parse(HERE)
 lii.stage(HERE, corpus, report)
+lii.unapplied(HERE, corpus)
 constitution.write(constitution.parse())
 peachjam.write_corpus(HERE, corpus)
 peachjam.write_docs(HERE, corpus)
