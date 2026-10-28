@@ -1,0 +1,77 @@
+{
+ "retrieved": "2026-10-28",
+ "listing_note": "LesLII's listing page is not read; only archived copies of LesLII pages are used.",
+ "common_crawl": true,
+ "law_pages": true,
+ "lii": {
+  "name": "LesLII",
+  "hosts": [
+   "lesotholii.org"
+  ],
+  "cc": "ls",
+  "path_prefixes": [
+   ""
+  ],
+  "listing_prefix": "",
+  "listing": false
+ },
+ "country": {
+  "code": "LS",
+  "name": "Lesotho",
+  "slug": "lesotho",
+  "lang": "en",
+  "tz": "Africa/Maseru",
+  "future_branch": "future",
+  "publisher": {
+   "name": "LesLII",
+   "email": "leslii@lesotholii.invalid"
+  },
+  "default_in_force_rule": {
+   "text": "Not applied: every version is dated by LesLII's own expression date, or by the commencement date LesLII states for the act as published. No date is computed from a default rule.",
+   "source": "https://lesotholii.org/legislation/"
+  },
+  "licence_note": "Source: LesLII (https://lesotholii.org), licensed under the Creative Commons Attribution-NonCommercial 4.0 International licence (CC BY-NC 4.0)."
+ },
+ "sources": [
+  {
+   "name": "LesLII, the Lesotho Legal Information Institute (supported by the Judiciary of Lesotho, the Law Office and the Law Society; on the Laws.Africa Peachjam platform)",
+   "url": "https://lesotholii.org",
+   "retrieved": "2026-10-28",
+   "requests": "count",
+   "licence": "CC BY-NC 4.0, crediting LesLII as the source (https://lesotholii.org/terms-of-use/, read from the Internet Archive's copy)",
+   "notes": "Point-in-time expressions of each act, /akn/ls/act/<year>/<num>/eng@<date>. Each expression page is read from an archived copy (the Internet Archive's raw id_ form, or Common Crawl), never from LesLII's own pages; the capture timestamps and sha256s are pinned in sources.json."
+  },
+  {
+   "name": "Internet Archive Wayback Machine",
+   "url": "https://web.archive.org",
+   "retrieved": "2026-10-28",
+   "requests": null,
+   "licence": "Archived copies of LesLII pages; the content licence is LesLII's",
+   "notes": "CDX API for discovery, then https://web.archive.org/web/<timestamp>id_/<original url> for the page bytes, through scripts/gitlaw_common/wayback.py (one adaptive rate for the whole machine)."
+  }
+ ],
+ "acts": [
+  {
+   "work": "2008/4",
+   "slug": "money-laundering",
+   "short": "MLPCA 2008",
+   "title": "Money Laundering and Proceeds of Crime Act, 2008",
+   "label": "Act 4 of 2008"
+  },
+  {
+   "work": "2011/1",
+   "slug": "anti-trafficking",
+   "short": "ATIPA 2011",
+   "title": "Anti-Trafficking in Persons Act, 2011",
+   "label": "Act 1 of 2011"
+  }
+ ],
+ "decisions": [
+  "Acts were chosen by what the archives hold. Of the 142 LesLII act works with an archived expression page, only two have more than one archived expression: the Money Laundering and Proceeds of Crime Act 2008 (3 expressions: 2008-04-10, 2013-03-28, 2015-09-25) and the Anti-Trafficking in Persons Act 2011 (2 expressions: 2011-01-11, 2021-01-14). Each of their versions is read from its own dated expression.",
+  "The Constitution of Lesotho 1993 has no archived LesLII (Peachjam) expression page: the Internet Archive holds no /akn/ls/act/1993/... page for it. Its 1993 text as made is read from the archived page of LesLII's earlier website (lesotholii.org/ls/legislation/num-act/1993/1), in corpus.d/10-constitution.json; see that part's own decisions.",
+  "Licence and terms: LesLII licenses primary and secondary law content CC BY-NC 4.0, crediting LesLII as the source; its terms (section 4) prohibit scraping and bulk downloading from its website, and its robots.txt sends Content-Signal ai-train=no, ai-input=no and Crawl-delay 5. No LesLII page was fetched from lesotholii.org: every page, including the terms and robots.txt, is read from an archived copy (Internet Archive, or Common Crawl), for the configured acts only. The user decided on 2026-10-28 that reading these archived copies is acceptable (relayed by the coordinator: \"scraping wayback is fair game, dont overdo it\"). The repository stays private; CC BY-NC allows only non-commercial use. No legal text was given to a model."
+ ],
+ "ai_use": [
+  "Claude Code (Claude Opus 5.5, claude-opus-5-5) wrote the configuration and the Constitution parser and chose the acts. No model wrote, summarised or transformed legal text: parse.py is deterministic code."
+ ]
+}
