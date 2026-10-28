@@ -1,82 +1,73 @@
 {
  "acts": {
-  "anti-trafficking": [
-   {
-    "changed": 0,
-    "credited": 0,
-    "from": "2011-01-11",
-    "units": 57
-   },
-   {
-    "changed": 6,
-    "credited": 6,
-    "from": "2021-01-14",
-    "units": 57
-   }
-  ],
   "money-laundering": [
    {
-    "changed": 0,
-    "credited": 0,
     "from": "2008-04-10",
-    "units": 117
+    "units": 117,
+    "changed": 0,
+    "credited": 0
    },
    {
-    "changed": 1,
-    "credited": 1,
     "from": "2013-03-28",
-    "units": 117
+    "units": 117,
+    "changed": 1,
+    "credited": 1
    },
    {
-    "changed": 1,
-    "credited": 1,
     "from": "2015-09-25",
-    "units": 117
+    "units": 117,
+    "changed": 1,
+    "credited": 1
+   }
+  ],
+  "anti-trafficking": [
+   {
+    "from": "2011-01-11",
+    "units": 57,
+    "changed": 0,
+    "credited": 0
+   },
+   {
+    "from": "2021-01-14",
+    "units": 57,
+    "changed": 6,
+    "credited": 6
    }
   ]
  },
- "check": {
-  "acts": 3,
-  "backwards": 0,
-  "future_dated": 0,
-  "merges": 0,
-  "mismatches": 0,
-  "missing_in_force": 0,
-  "trailer_errors": 0,
-  "versions": 6
- },
  "fidelity": {
-  "anti-trafficking@2011-01-11": {
-   "text_outside_units_chars": 0,
-   "text_outside_units_sample": "",
-   "units": 57,
-   "units_differing": []
-  },
-  "anti-trafficking@2021-01-14": {
-   "text_outside_units_chars": 0,
-   "text_outside_units_sample": "",
-   "units": 57,
-   "units_differing": []
-  },
   "money-laundering@2008-04-10": {
-   "text_outside_units_chars": 0,
-   "text_outside_units_sample": "",
    "units": 117,
-   "units_differing": []
+   "units_differing": [],
+   "text_outside_units_chars": 0,
+   "text_outside_units_sample": ""
   },
   "money-laundering@2013-03-28": {
-   "text_outside_units_chars": 0,
-   "text_outside_units_sample": "",
    "units": 117,
-   "units_differing": []
+   "units_differing": [],
+   "text_outside_units_chars": 0,
+   "text_outside_units_sample": ""
   },
   "money-laundering@2015-09-25": {
-   "text_outside_units_chars": 0,
-   "text_outside_units_sample": "",
    "units": 117,
-   "units_differing": []
+   "units_differing": [],
+   "text_outside_units_chars": 0,
+   "text_outside_units_sample": ""
+  },
+  "anti-trafficking@2011-01-11": {
+   "units": 57,
+   "units_differing": [],
+   "text_outside_units_chars": 0,
+   "text_outside_units_sample": ""
+  },
+  "anti-trafficking@2021-01-14": {
+   "units": 57,
+   "units_differing": [],
+   "text_outside_units_chars": 0,
+   "text_outside_units_sample": ""
   }
  },
+ "staged_commencement": [],
  "law_dates": {
   "act-2008-4": {
    "commenced": null,
@@ -105,7 +96,7 @@
    ]
   }
  },
- "staged_commencement": [
+ "staged_commencement_built": [
   "money-laundering"
  ]
 }

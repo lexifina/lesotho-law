@@ -89,6 +89,28 @@
    "temporary_until": null,
    "restores": null,
    "note": null
+  },
+  "ln-2011-68": {
+   "label": "Legal Notice 68 of 2011",
+   "title": "Money Laundering and Proceeds of Crime Act 2008 (Commencement of Sections 14 and 15) Notice, 2011",
+   "kind": "decree",
+   "enacted": null,
+   "published": null,
+   "url": "https://lesotholii.org/akn/ls/act/ln/2011/68",
+   "temporary_until": null,
+   "restores": null,
+   "note": "Commencement notice: it brings Part II, section 14–15 of the Money Laundering and Proceeds of Crime Act, 2008 into force on 2011-06-10. It writes no words; the words are the Act's as published."
+  },
+  "ln-2012-82": {
+   "label": "Legal Notice 82 of 2012",
+   "title": "Money Laundering and Proceeds of Crime Act, 2008 (Date of Partial Commencement) Notice, 2012",
+   "kind": "decree",
+   "enacted": null,
+   "published": null,
+   "url": "https://lesotholii.org/akn/ls/act/ln/2012/82",
+   "temporary_until": null,
+   "restores": null,
+   "note": "Commencement notice: it brings Part III, section 18 of the Money Laundering and Proceeds of Crime Act, 2008 into force on 2012-07-01. It writes no words; the words are the Act's as published."
   }
  },
  "acts": [
@@ -101,7 +123,7 @@
    "earlier_laws": [],
    "versions": [
     {
-     "from": "2008-04-10",
+     "from": "2009-04-01",
      "source_url": "https://web.archive.org/web/20241209032819id_/https://lesotholii.org/akn/ls/act/2008/4/eng@2008-04-10",
      "sha256": "88a4acfb3a3fe2d88c2d0f4190196871bd1c954ae032a79d490bcc7e4a2e8e70",
      "units": {
@@ -180,16 +202,6 @@
        "kind": "sec",
        "text": "# 13. Compliance\n(1) An officer of an accountable institution shall take all reasonable steps to ensure the compliance by the accountable institution with its obligations under this Act.\n(2) The Authority may issue a directive to an accountable institution which has, without reasonable excuse, failed to comply in whole or in part with its obligations under the Act to implement any action plan to ensure compliance with its obligations under this Act.\n(3) Where an accountable institution fails to comply with a directive under subsection (2), the Authority upon application to court and after satisfying the court that an accountable institution has failed, without reasonable excuse, to comply in whole or in part with any obligations under this Act, may obtain an order against any or all of the officers or employees of the accountable institutions on such terms as tine court deems necessary to enforce compliance with the obligations.\n(4) In granting the order pursuant to subsection (3), the court may direct that should the accountable institution fail, without reasonable excuse, to comply with all or any of the provisions of the order, the accountable institution or an officer or employee thereof shall pay a monetary penalty in the sum not less than M100, 000 or imprisonment for a period not exceeding 10 years.\n"
       },
-      "sec-014": {
-       "label": "Section 14",
-       "kind": "sec",
-       "text": "# 14. The Financial Intelligence Unit\nThere is established a Financial Intelligence Unit which shall be a juristic person responsible to the Minister.\n"
-      },
-      "sec-015": {
-       "label": "Section 15",
-       "kind": "sec",
-       "text": "# 15. Functions of the Unit\n(1) The Unit shall be the central agency responsible for receiving, requesting, analysing and disseminating to the investigatory and supervisory authorities disclosures of financial information—\n(a) concerning suspected proceeds of crime and alleged money laundering offences;\n(b) required by or under any law in order to counter money laundering; or\n(c) concerning the suspected financing of terrorism and terrorist property.\n(2) For the purpose of sub-section (1), the Unit shall—\n(a) receive, analyse and assess reports of suspicious transactions issued by accountable institutions pursuant to section 18(1);\n(b) collect, process, analyse and interpret information disclosed to it and obtained by it under the relevant laws;\n(c) inform, advise and co-operate with the investigatory and supervisory authorities, following consideration of reports received, where the Unit has reasonable grounds to suspect that a transaction involves proceeds of crime or terrorist financing or money laundering;\n(d) supervise and enforce compliance by banks, accountable institutions and members of the relevant professions or occupations, with the provision of the relevant laws;\n(e) issue to banks, accountable institutions and members of relevant professions or occupations, such guidelines as it considers appropriate to combat money laundering and financing of terrorism activities;\n(f) promote the appointment of persons by banks, accountable institutions and members of relevant professions or occupations to specialise in measures to detect and combat money laundering and financing of terrorism activities;\n(g) provide assistance in the investigation or prosecution of money laundering offences to other countries;\n(h) may compile statistics and records, disseminate information within Lesotho or elsewhere, make recommendations arising out of any information received, issue guidelines to accountable institutions and advise the Minister accordingly;\n(i) may, upon reasonable suspicion of commission of an offence, enter the premises of an accountable institution during ordinary business hours to inspect any record kept pursuant to section 18(1), and ask any question relating to such record, make notes and take copies of whole or any part of the record;\n(j) shall create training requirements and provide such training for any accountable institution in respect of transaction record-keeping and reporting obligations provided for in sections 17(1) and 18(1).\n(3) The Unit shall refer any matter or information derived from a report or information it so receives to the appropriate law enforcement agency in Lesotho if, on the basis of its analysis and assessment, it has reasonable grounds to suspect that the transaction would be relevant to the investigation or prosecution of a money laundering offence, a terrorist offence or serious offence, and in connection therein, the Unit shall send a copy of such referral or information to the relevant supervisory authority.\n"
-      },
       "sec-016": {
        "label": "Section 16",
        "kind": "sec",
@@ -199,11 +211,6 @@
        "label": "Section 17",
        "kind": "sec",
        "text": "# 17. Accountable institution to establish and maintain customer records\n(1) An accountable institution shall establish and maintain—\n(a) records of all suspicious transactions in any currency as may be specified from time to time by the Central Bank carried out by it, in accordance with the requirements of subsection (3);\n(b) where evidence of a person's identity is obtained in accordance with section 16, a record that indicates the nature of the evidence obtained, and which comprises either a copy of the evidence or such information as would enable a copy of it to be obtained.\n(2) Customer accounts of an accountable institution shall be kept in the true name of the account holder.\n(3) Records required under subsection (1)(a) shall contain particulars sufficient to identify—\n(a) the name, address and occupation or where appropriate, business or principal activity of each person conducting the transaction, or if known, on whose behalf the transaction is being conducted;\n(b) the nature and date of the transaction;\n(c) the type and amount of currency involved;\n(d) the type and identifying number of any account with the accountable institution involved in the transaction;\n(e) if the transaction involves a negotiable instrument other than currency, the name of the drawer of the instrument, the name of the institution on which it was drawn, the name of the payee, if any, the amount and date of the instrument, the number, if any, of the instrument and details of any endorsements appearing on the instrument;\n(f) the name and address of the accountable institution, and of the officer, employee or agent of the accountable institution who prepared the report.\n(4) Records required under subsection (1) shall be kept by the accountable institution for a period of at least 5 years from the date the relevant business or transaction was completed, or termination of business relationship, which ever is the later.\n"
-      },
-      "sec-018": {
-       "label": "Section 18",
-       "kind": "sec",
-       "text": "# 18. Accountable institution to report suspicious transactions\n(1) Whenever an accountable institution has reasonable grounds to suspect that any transaction is related to the commission of money laundering offence or terrorist financing, it shall, within the prescribed period after forming that suspicion and wherever possible before the transaction is carried out—\n(a) take reasonable measures to ascertain the purpose of the transaction, the origin and ultimate destination of the funds involved and the identity and address, of any ultimate beneficiary;\n(b) prepare a report of the transaction in accordance with subsection (2);\n(c) communicate the information contained therein to the Unit and Authority in writing or in such other form as the Minister, may from time to time, prescribe.\n(2) A report required under subsection (1) shall—\n(a) contain particulars of the matters specified in subsection (1)(a) and in section 16(1);\n(b) contain a statement of the grounds on which the accountable institution holds the suspicion;\n(c) be signed or otherwise authenticated by the account able institution; and\n(d) shall be in the format to be prescribed by the Minister.\n(3) An accountable institution which has reported a suspicious transaction in accordance with this Part shall, if requested to do so by the Unit or Authority, give such further information as it has in relation to the transaction.\n"
       },
       "sec-019": {
        "label": "Section 19",
@@ -691,7 +698,54 @@
        "text": "# Schedule 2 (section 2)\nList of universal instruments against terrorism\n1. Convention on Offences and Certain Other Acts Committed on Board Aircraft (1963)\n2. Convention for the Suppression of Unlawful Seizure of Aircraft (1970)\n3. Convention for the Suppression of Unlawful Acts against the Safety of Civil Aviation (1971)\n4. International Convention against the Taking of Hostages (1979)\n5. International Convention for the Suppression of Terrorist Bombings (1997)\n6. International Convention for the Suppression of the Financing of Terrorism (1999)\n7. International Convention for the Suppression of Acts of Nuclear Terrorism (2005).\n"
       }
      },
-     "note": "The LesLII version of 2008-04-10: the act as published."
+     "note": "The LesLII expression of 2008-04-10 (the act as published in the Gazette), in force from 2009-04-01 except the provisions that commenced later: Part I (section 1–10); Part II, section 11–13; Part III, section 16–17, section 19–36; Part IV (section 37–86); Part V (section 87–110); Part VI (section 111–113) commenced on 2009-04-01 by Legal Notice 51 of 2009."
+    },
+    {
+     "from": "2011-06-10",
+     "source_url": "https://web.archive.org/web/20241209032819id_/https://lesotholii.org/akn/ls/act/2008/4/eng@2008-04-10",
+     "sha256": "88a4acfb3a3fe2d88c2d0f4190196871bd1c954ae032a79d490bcc7e4a2e8e70",
+     "changes": {
+      "sec-014": {
+       "label": "Section 14",
+       "kind": "sec",
+       "text": "# 14. The Financial Intelligence Unit\nThere is established a Financial Intelligence Unit which shall be a juristic person responsible to the Minister.\n"
+      },
+      "sec-015": {
+       "label": "Section 15",
+       "kind": "sec",
+       "text": "# 15. Functions of the Unit\n(1) The Unit shall be the central agency responsible for receiving, requesting, analysing and disseminating to the investigatory and supervisory authorities disclosures of financial information—\n(a) concerning suspected proceeds of crime and alleged money laundering offences;\n(b) required by or under any law in order to counter money laundering; or\n(c) concerning the suspected financing of terrorism and terrorist property.\n(2) For the purpose of sub-section (1), the Unit shall—\n(a) receive, analyse and assess reports of suspicious transactions issued by accountable institutions pursuant to section 18(1);\n(b) collect, process, analyse and interpret information disclosed to it and obtained by it under the relevant laws;\n(c) inform, advise and co-operate with the investigatory and supervisory authorities, following consideration of reports received, where the Unit has reasonable grounds to suspect that a transaction involves proceeds of crime or terrorist financing or money laundering;\n(d) supervise and enforce compliance by banks, accountable institutions and members of the relevant professions or occupations, with the provision of the relevant laws;\n(e) issue to banks, accountable institutions and members of relevant professions or occupations, such guidelines as it considers appropriate to combat money laundering and financing of terrorism activities;\n(f) promote the appointment of persons by banks, accountable institutions and members of relevant professions or occupations to specialise in measures to detect and combat money laundering and financing of terrorism activities;\n(g) provide assistance in the investigation or prosecution of money laundering offences to other countries;\n(h) may compile statistics and records, disseminate information within Lesotho or elsewhere, make recommendations arising out of any information received, issue guidelines to accountable institutions and advise the Minister accordingly;\n(i) may, upon reasonable suspicion of commission of an offence, enter the premises of an accountable institution during ordinary business hours to inspect any record kept pursuant to section 18(1), and ask any question relating to such record, make notes and take copies of whole or any part of the record;\n(j) shall create training requirements and provide such training for any accountable institution in respect of transaction record-keeping and reporting obligations provided for in sections 17(1) and 18(1).\n(3) The Unit shall refer any matter or information derived from a report or information it so receives to the appropriate law enforcement agency in Lesotho if, on the basis of its analysis and assessment, it has reasonable grounds to suspect that the transaction would be relevant to the investigation or prosecution of a money laundering offence, a terrorist offence or serious offence, and in connection therein, the Unit shall send a copy of such referral or information to the relevant supervisory authority.\n"
+      }
+     },
+     "credits": {
+      "sec-014": [
+       "act-2008-4",
+       "ln-2011-68"
+      ],
+      "sec-015": [
+       "act-2008-4",
+       "ln-2011-68"
+      ]
+     },
+     "note": "Part II, section 14–15 commenced on 2011-06-10 by Legal Notice 68 of 2011 (LesLII's commencements table)."
+    },
+    {
+     "from": "2012-07-01",
+     "source_url": "https://web.archive.org/web/20241209032819id_/https://lesotholii.org/akn/ls/act/2008/4/eng@2008-04-10",
+     "sha256": "88a4acfb3a3fe2d88c2d0f4190196871bd1c954ae032a79d490bcc7e4a2e8e70",
+     "changes": {
+      "sec-018": {
+       "label": "Section 18",
+       "kind": "sec",
+       "text": "# 18. Accountable institution to report suspicious transactions\n(1) Whenever an accountable institution has reasonable grounds to suspect that any transaction is related to the commission of money laundering offence or terrorist financing, it shall, within the prescribed period after forming that suspicion and wherever possible before the transaction is carried out—\n(a) take reasonable measures to ascertain the purpose of the transaction, the origin and ultimate destination of the funds involved and the identity and address, of any ultimate beneficiary;\n(b) prepare a report of the transaction in accordance with subsection (2);\n(c) communicate the information contained therein to the Unit and Authority in writing or in such other form as the Minister, may from time to time, prescribe.\n(2) A report required under subsection (1) shall—\n(a) contain particulars of the matters specified in subsection (1)(a) and in section 16(1);\n(b) contain a statement of the grounds on which the accountable institution holds the suspicion;\n(c) be signed or otherwise authenticated by the account able institution; and\n(d) shall be in the format to be prescribed by the Minister.\n(3) An accountable institution which has reported a suspicious transaction in accordance with this Part shall, if requested to do so by the Unit or Authority, give such further information as it has in relation to the transaction.\n"
+      }
+     },
+     "credits": {
+      "sec-018": [
+       "act-2008-4",
+       "ln-2012-82"
+      ]
+     },
+     "note": "Part III, section 18 commenced on 2012-07-01 by Legal Notice 82 of 2012 (LesLII's commencements table)."
     },
     {
      "from": "2013-03-28",
@@ -1101,7 +1155,7 @@
   "Editorial notes (akn-remark) are left out of the text and used only as credit evidence, except where a provision has no other text (repealed or spent), where the note is the provision's whole printed content.",
   "Part, Chapter and Division headings are left out; each provision file starts with its own number and heading. Every other text of each version is in a provision file: parse.py checks this per version (verification.json, fidelity).",
   "MLPCA 2008: the LII's page says: This is the latest available version of this Act. There are outstanding amendments that have not yet been applied. See the History tab for more information.",
-  "MLPCA 2008: LesLII gives no single commencement date (none stated); the first version keeps its expression date 2008-04-10, the Gazette publication."
+  "MLPCA 2008: LesLII's page says \"There are multiple commencements\" and prints a commencements table; the act's start is built from it (lii.py): Part I (section 1–10); Part II, section 11–13; Part III, section 16–17, section 19–36; Part IV (section 37–86); Part V (section 87–110); Part VI (section 111–113) from 2009-04-01 (Legal Notice 51 of 2009); Part II, section 14–15 from 2011-06-10 (Legal Notice 68 of 2011); Part III, section 18 from 2012-07-01 (Legal Notice 82 of 2012). The long title, the preamble and the schedules whose headings tie them to a section are dated with that section; the text of every provision is the 2008-04-10 expression's, the Act as published."
  ],
  "ai_use": [
   "Claude Code (Claude Opus 5.5, claude-opus-5-5) wrote the configuration and the Constitution parser and chose the acts. No model wrote, summarised or transformed legal text: parse.py is deterministic code."

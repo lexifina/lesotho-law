@@ -8,14 +8,16 @@ It follows the shared design of [lexifina/global-law](https://github.com/lexifin
 
 | Folder | Act | Versions | History |
 | --- | --- | ---: | --- |
-| `money-laundering/` | [Money Laundering and Proceeds of Crime Act, 2008](https://lesotholii.org/akn/ls/act/2008/4) | 3 | 2008-04-10 to 2015-09-25 |
+| `money-laundering/` | [Money Laundering and Proceeds of Crime Act, 2008](https://lesotholii.org/akn/ls/act/2008/4) | 5 | 2009-04-01 to 2015-09-25 |
 | `anti-trafficking/` | [Anti-Trafficking in Persons Act, 2011](https://lesotholii.org/akn/ls/act/2011/1) | 2 | 2011-01-11 to 2021-01-14 |
 
 **Money Laundering and Proceeds of Crime Act, 2008**
 
 | In force | Author |
 | --- | --- |
-| 2008-04-10 | Act 4 of 2008 (as enacted) |
+| 2009-04-01 | Act 4 of 2008 (as enacted) |
+| 2011-06-10 | Act 4 of 2008, Legal Notice 68 of 2011 |
+| 2012-07-01 | Act 4 of 2008, Legal Notice 82 of 2012 |
 | 2013-03-28 | Legal Notice 30 of 2013 |
 | 2015-09-25 | Legal Notice 112 of 2015 |
 
@@ -32,15 +34,15 @@ Each folder's `README.md` lists every provision, how often it changed and when.
 
 | Question | Command |
 | --- | --- |
-| What did sec-001 say on 2008-04-10? | `python tools/on.py 2008-04-10 money-laundering sec-001` |
-| The same, with raw git (bash) | `git show $(git rev-list -1 --before="2008-04-10T23:59:59Z" main -- money-laundering/sec-001.md):money-laundering/sec-001.md` |
-| The same, in PowerShell | `$r = git rev-list -1 --before="2008-04-10T23:59:59Z" main -- money-laundering/sec-001.md; git show "$($r):money-laundering/sec-001.md"` |
-| Which law wrote each line? | `git blame money-laundering/sec-001.md` |
-| Every change, word by word | `git log -p --word-diff money-laundering/sec-001.md` |
+| What did sec-014 say on 2009-04-01? | `python tools/on.py 2009-04-01 money-laundering sec-014` |
+| The same, with raw git (bash) | `git show $(git rev-list -1 --before="2009-04-01T23:59:59Z" main -- money-laundering/sec-014.md):money-laundering/sec-014.md` |
+| The same, in PowerShell | `$r = git rev-list -1 --before="2009-04-01T23:59:59Z" main -- money-laundering/sec-014.md; git show "$($r):money-laundering/sec-014.md"` |
+| Which law wrote each line? | `git blame money-laundering/sec-014.md` |
+| Every change, word by word | `git log -p --word-diff money-laundering/sec-014.md` |
 | Every law in the record, in order | `git log --reverse --format="%ad %an" --date=short main` |
 | Everything one law changed | `git show law/<key>` (tags `law/<key>` mark each law's commit) |
-| The whole act on a date | `python tools/on.py 2008-04-10 money-laundering` |
-| Which law gave a provision its wording on a date | `python tools/on.py --law 2008-04-10 money-laundering sec-001` |
+| The whole act on a date | `python tools/on.py 2009-04-01 money-laundering` |
+| Which law gave a provision its wording on a date | `python tools/on.py --law 2009-04-01 money-laundering sec-014` |
 
 After a rebuild, refresh tags with `git fetch --force --tags`: a plain fetch keeps stale tags.
 
