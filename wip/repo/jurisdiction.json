@@ -1,0 +1,10 @@
+{
+  "path": "ls",
+  "code": "LS",
+  "name": "Lesotho",
+  "level": "country",
+  "repo": "https://github.com/lexifina/lesotho-law",
+  "build": "preview: Money Laundering and Proceeds of Crime Act 2008 (5 versions) and Anti-Trafficking in Persons Act 2011 (2 versions) from archived LesLII expressions; Constitution 1993 as made only (amendments not applied)",
+  "register": "https://claude.ai/artifact/DdS9F6yqpPZtV2i7FGQhYZ",
+  "register_date": "2026-10-28"
+}

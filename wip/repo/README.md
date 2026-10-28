@@ -55,7 +55,7 @@ After a rebuild, refresh tags with `git fetch --force --tags`: a plain fetch kee
 ## How it is checked
 
 - Every version is read back from git on the day it took effect and on the day before (`tools/check_repo.py`); both must match `corpus.json`. Results are in `REPRODUCE.md`.
-- **Against LesLII today:** the last version of each act is LesLII's current expression, as named by its own legislation listing on the retrieval day, and is the text of that expression page.
+- **Against LesLII:** LesLII's own pages are never read, so the last version of each act is the latest expression archived. For the two acts on LesLII's current site, that expression's own History tab (archived June 2023) names every later amendment; any it lists after the last version is not applied, and is named under "Lesotho: what is missing" below.
 - **Every version is its own dated expression**: each was parsed from an archived copy of exactly that expression's page, whose sha256 is recorded with the version.
 - The repository is rebuilt from the same data a second time and must give identical hashes.
 
@@ -75,14 +75,27 @@ The author of a commit is the law that made the change, with an e-mail address t
 - **Amendments not yet applied.** Where the LII lists an amendment as not yet applied to its consolidated text, it is not in this history; REPRODUCE.md lists each one.
 - **No OCR.** Acts the LII shows only as scanned PDFs are not included.
 
+## Lesotho: what is missing, and why
+
+**The Constitution of Lesotho (1993).** The folder `constitution/` holds the Constitution **as it came into operation on 2 April 1993, and nothing after it**. LesLII's current site has no archived copy of any version of the Constitution, so its text is read from the archived page of LesLII's earlier website (`lesotholii.org/ls/legislation/num-act/1993/1`, Internet Archive copy of 26 March 2023), whose editorial note calls it "the official text". None of the amending Acts is applied: no archived copy gives a dated consolidated text after them, and this repository does not reconstruct one. The earlier page names five of them (the Second Amendment of the Constitution Act 1997, the Fourth Amendment to the Constitution Act 2001, the Fifth Amendment to the Constitution Act 2004, and the Sixth and Seventh Amendments of 2011); there are others it does not list. **So `constitution/` is not the Constitution in force today.** For that reason the Constitution is kept in an unverified part of the data and builds only to the `preview` branch, not to `main`.
+
+**Money Laundering and Proceeds of Crime Act, 2008.** LesLII lists two later amendments that its own latest version does not apply: the Money Laundering and Proceeds of Crime (Amendment) Act, 2016 (dated 6 February 2017) and the Amendment of Schedule Notice, 2017 (dated 30 June 2017). They are not in this history, so from 6 February 2017 the text here is not the law in force. The Act came into force in three stages (1 April 2009; sections 14 and 15 on 10 June 2011; section 18 on 1 July 2012), as LesLII's commencements table gives them; each stage is its own commit.
+
+**Other acts.** The Internet Archive holds archived copies of LesLII expression pages for 142 Lesotho acts and legal notices, but only these two have more than one version archived; nothing else could be built with a history.
+
+## Sources and research guides
+
+From the World Law Sources register (28 October 2026): LesLII (https://lesotholii.org) is Lesotho's official free legislation source, on the Laws.Africa platform, with past versions by date but no API or bulk download. Research guides that cover every country: [GlobaLex](https://www.nyulawglobal.org/globalex/) and the [Law Library of Congress Guide to Law Online](https://www.loc.gov/research-centers/law-library-of-congress/researcher-resources/guide-to-law-online/).
+
 ## How it is built
 
+LesLII's terms prohibit scraping its website, so no LesLII page is fetched: `tools/fetch.py` reads each expression page from an archived copy, the latest Internet Archive capture (the raw `id_` form), found through the Wayback CDX index, with curl, cached by the sha256 of the URL; the capture timestamps and hashes are pinned in `tools/sources.json`. `tools/parse.py` reads only that cache through `tools/peachjam.py`, the shared adapter for every Peachjam LII: it splits the Akoma Ntoso HTML into one file per provision, takes dates and credits from the LII's History tab, amendment list and editorial notes, and writes `corpus.json`; the shared builder `tools/build.py` turns that into the commits. `REPRODUCE.md` lists every source, command, tool version and decision, and the result of the hash-for-hash rebuild.
 
 ## Sources
 
 | Source | What it gives | Used for |
 | --- | --- | --- |
-| [LesLII](https://lesotholii.org) | Dated point-in-time versions (expressions) of each act, its History and amendment list, and per-provision editorial notes; its listing page names the current version | The text and dates of every version |
+| [LesLII](https://lesotholii.org) | Dated point-in-time versions (expressions) of each act, its History and amendment list, and per-provision editorial notes; its earlier website (to 2023) printed the Constitution of 1993 | The text and dates of every version |
 | [Internet Archive](https://web.archive.org/) | Archived copies of those expression pages | Reading them |
 
 ## Licence
