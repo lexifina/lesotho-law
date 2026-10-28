@@ -16,8 +16,8 @@ It follows the shared design of [lexifina/global-law](https://github.com/lexifin
 | In force | Author |
 | --- | --- |
 | 2009-04-01 | Act 4 of 2008 (as enacted) |
-| 2011-06-10 | Act 4 of 2008, Legal Notice 68 of 2011 |
-| 2012-07-01 | Act 4 of 2008, Legal Notice 82 of 2012 |
+| 2011-06-10 | Legal Notice 68 of 2011 |
+| 2012-07-01 | Legal Notice 82 of 2012 |
 | 2013-03-28 | Legal Notice 30 of 2013 |
 | 2015-09-25 | Legal Notice 112 of 2015 |
 
