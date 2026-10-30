@@ -1,0 +1,140 @@
+{
+ "retrieved": "2026-10-30",
+ "listing_note": "LesLII's listing page is not read; only archived copies of LesLII pages are used.",
+ "common_crawl": true,
+ "law_pages": true,
+ "lii": {
+  "name": "LesLII",
+  "hosts": [
+   "lesotholii.org"
+  ],
+  "cc": "ls",
+  "path_prefixes": [
+   ""
+  ],
+  "listing_prefix": "",
+  "listing": false
+ },
+ "country": {
+  "code": "LS",
+  "name": "Lesotho",
+  "slug": "lesotho",
+  "lang": "en",
+  "tz": "Africa/Maseru",
+  "future_branch": "future",
+  "publisher": {
+   "name": "LesLII",
+   "email": "leslii@lesotholii.invalid"
+  },
+  "default_in_force_rule": {
+   "text": "Not applied: every version is dated by LesLII's own expression date, or by the commencement date LesLII states for the act as published. No date is computed from a default rule.",
+   "source": "https://lesotholii.org/legislation/"
+  },
+  "licence_note": "Source: LesLII (https://lesotholii.org), licensed under the Creative Commons Attribution-NonCommercial 4.0 International licence (CC BY-NC 4.0)."
+ },
+ "sources": [
+  {
+   "name": "LesLII, the Lesotho Legal Information Institute (supported by the Judiciary of Lesotho, the Law Office and the Law Society; on the Laws.Africa Peachjam platform)",
+   "url": "https://lesotholii.org",
+   "retrieved": "2026-10-30",
+   "requests": "count",
+   "licence": "CC BY-NC 4.0, crediting LesLII as the source (https://lesotholii.org/terms-of-use/, read from the Internet Archive's copy)",
+   "notes": "Point-in-time expressions of each act, /akn/ls/act/<year>/<num>/eng@<date>, each read from an archived copy of the page; copies and sha256s are pinned."
+  },
+  {
+   "name": "Internet Archive Wayback Machine",
+   "url": "https://web.archive.org",
+   "retrieved": "2026-10-30",
+   "requests": null,
+   "licence": "Archived copies of LesLII pages; the content licence is LesLII's",
+   "notes": "Archived copies of LesLII expression pages, pinned by timestamp."
+  }
+ ],
+ "acts": [
+  {
+   "work": "2012/6",
+   "slug": "penal-code",
+   "short": "Penal Code",
+   "title": "Penal Code Act, 2012",
+   "label": "Act 6 of 2012",
+   "part": "70-penal-code",
+   "decisions": [
+    "Penal Code: in force 2012-03-09, the day of its publication in Government Gazette 30 (LesLII coverpage), under its s. 1: it \"shall come into operation on the date of its publication in the Gazette\". The Act cites itself as the Penal Code Act, 2010 (s. 1, as printed); LesLII files it as Act 6 of 2012.",
+    "Penal Code: LesLII's History lists no amendment after commencement (archived copy of 2026-01-12); the one version is the Act as published."
+   ]
+  },
+  {
+   "work": "2011/7",
+   "slug": "childrens-protection-and-welfare",
+   "short": "Children's Protection and Welfare Act",
+   "title": "Children's Protection and Welfare Act, 2011",
+   "label": "Act 7 of 2011",
+   "part": "75-childrens-protection-and-welfare",
+   "decisions": [
+    "Children's Protection and Welfare Act: in force 2011-03-31, the day of its publication in Government Gazette 40, the commencement LesLII states. LesLII lists no amendment."
+   ]
+  },
+  {
+   "work": "1980/12",
+   "slug": "arbitration-act",
+   "short": "Arbitration Act",
+   "title": "Arbitration Act, 1980",
+   "label": "Act 12 of 1980",
+   "part": "77-arbitration-act",
+   "decisions": [
+    "Arbitration Act: dated 1981-10-01, the commencement LesLII's coverpage states (\"Commenced on 1 October 1981\"); LesLII links the commencement to the Pension Scheme (Corporate Bodies) Act, 1979, which is how its page reads, not a sourced commencement instrument. LesLII lists no amendment."
+   ]
+  }
+ ],
+ "decisions": [],
+ "ai_use": [
+  "Claude Code (Claude Opus 5.5, claude-opus-5-5) wrote the configuration and the Constitution parser and chose the acts. No model wrote, summarised or transformed legal text: parse.py is deterministic code."
+ ],
+ "skipped": [
+  {
+   "work": "1981/7",
+   "slug": "criminal-procedure-and-evidence",
+   "short": "Criminal Procedure and Evidence Act",
+   "title": "Criminal Procedure and Evidence Act, 1981",
+   "label": "Act 7 of 1981",
+   "part": "71-criminal-procedure-and-evidence",
+   "why": "only expression is dated 1981-12-31, which LesLII says is a stand-in (the last day of the year of publication, from the Laws of Lesotho volumes), and it shows none of the later amendments"
+  },
+  {
+   "work": "2024/3",
+   "slug": "labour-act",
+   "short": "Labour Act",
+   "title": "Labour Act, 2024",
+   "label": "Act 3 of 2024",
+   "part": "73-labour-act",
+   "why": "no archived copy holds the text (every capture is a page shell)"
+  },
+  {
+   "work": "2024/2",
+   "slug": "administration-of-estates-and-inheritance",
+   "short": "Administration of Estates and Inheritance Act",
+   "title": "Administration of Estates and Inheritance Act, 2024",
+   "label": "Act 2 of 2024",
+   "part": "74-administration-of-estates-and-inheritance",
+   "why": "no archived copy holds the text (every capture is a page shell)"
+  },
+  {
+   "work": "2011/18",
+   "slug": "companies-act",
+   "short": "Companies Act",
+   "title": "Companies Act, 2011",
+   "label": "Act 18 of 2011",
+   "part": "72-companies-act",
+   "why": "s. 1: comes into operation on a date the Minister appoints by Gazette notice; LesLII gives no commencement date and no notice was found, so no version can be dated"
+  },
+  {
+   "work": "1999/5",
+   "slug": "prevention-of-corruption",
+   "short": "Prevention of Corruption and Economic Offences Act",
+   "title": "Prevention of Corruption and Economic Offences Act, 1999",
+   "label": "Act 5 of 1999",
+   "part": "76-prevention-of-corruption",
+   "why": "LesLII shows only the 1999 text and lists no amendment, but the Act is known to have been amended (2006); its current text cannot be sourced, so it is left out rather than shown as unchanged"
+  }
+ ]
+}

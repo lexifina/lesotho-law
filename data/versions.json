@@ -1,0 +1,105 @@
+{
+ "country": "LS",
+ "acts": [
+  {
+   "slug": "money-laundering",
+   "short": "MLPCA 2008",
+   "title": "Money Laundering and Proceeds of Crime Act, 2008",
+   "url": "https://lesotholii.org/akn/ls/act/2008/4",
+   "versions": [
+    {
+     "from": "2009-04-01",
+     "units": 114,
+     "source_url": "https://web.archive.org/web/20241209032819id_/https://lesotholii.org/akn/ls/act/2008/4/eng@2008-04-10",
+     "sha256": "88a4acfb3a3fe2d88c2d0f4190196871bd1c954ae032a79d490bcc7e4a2e8e70"
+    },
+    {
+     "from": "2011-06-10",
+     "units": 116,
+     "source_url": "https://web.archive.org/web/20241209032819id_/https://lesotholii.org/akn/ls/act/2008/4/eng@2008-04-10",
+     "sha256": "88a4acfb3a3fe2d88c2d0f4190196871bd1c954ae032a79d490bcc7e4a2e8e70"
+    },
+    {
+     "from": "2012-07-01",
+     "units": 117,
+     "source_url": "https://web.archive.org/web/20241209032819id_/https://lesotholii.org/akn/ls/act/2008/4/eng@2008-04-10",
+     "sha256": "88a4acfb3a3fe2d88c2d0f4190196871bd1c954ae032a79d490bcc7e4a2e8e70"
+    },
+    {
+     "from": "2013-03-28",
+     "units": 117,
+     "source_url": "https://web.archive.org/web/20241209042724id_/https://lesotholii.org/akn/ls/act/2008/4/eng@2013-03-28",
+     "sha256": "9b89a373d12ed1cc64e1680c19ef820790562bd92f76d5d2343ffb78b46e7748"
+    },
+    {
+     "from": "2015-09-25",
+     "units": 117,
+     "source_url": "https://web.archive.org/web/20230603212926id_/https://lesotholii.org/akn/ls/act/2008/4/eng@2015-09-25",
+     "sha256": "7a472a934a0e2dae5e7bb305ea0dded55dbed7260163dc6579fcb4ff7f86fecd"
+    }
+   ]
+  },
+  {
+   "slug": "anti-trafficking",
+   "short": "ATIPA 2011",
+   "title": "Anti-Trafficking in Persons Act, 2011",
+   "url": "https://lesotholii.org/akn/ls/act/2011/1",
+   "versions": [
+    {
+     "from": "2011-01-11",
+     "units": 57,
+     "source_url": "https://web.archive.org/web/20250619125514id_/https://lesotholii.org/akn/ls/act/2011/1/eng@2011-01-11",
+     "sha256": "bf82eaf071f43e610fe7deeca9ee4add308afa016f3f655bb9dfed1109537da1"
+    },
+    {
+     "from": "2021-01-14",
+     "units": 57,
+     "source_url": "https://web.archive.org/web/20230603205259id_/https://lesotholii.org/akn/ls/act/2011/1/eng@2021-01-14",
+     "sha256": "d812d51985c792a296db6c9fb19dc7129cb94c11b02d2e92c9cc514a8f459bd9"
+    }
+   ]
+  },
+  {
+   "slug": "penal-code",
+   "short": "Penal Code",
+   "title": "Penal Code Act, 2012",
+   "url": "https://lesotholii.org/akn/ls/act/2012/6",
+   "versions": [
+    {
+     "from": "2012-03-09",
+     "units": 112,
+     "source_url": "https://lesotholii.org/akn/ls/act/2012/6/eng@2012-03-09",
+     "sha256": "e17c4a63195b1060ecd58a3394a5ecb8b2d53c13cf125949a9ce3fff7f25921b"
+    }
+   ]
+  },
+  {
+   "slug": "childrens-protection-and-welfare",
+   "short": "Children's Protection and Welfare Act",
+   "title": "Children's Protection and Welfare Act, 2011",
+   "url": "https://lesotholii.org/akn/ls/act/2011/7",
+   "versions": [
+    {
+     "from": "2011-03-31",
+     "units": 242,
+     "source_url": "https://lesotholii.org/akn/ls/act/2011/7/eng@2011-03-31",
+     "sha256": "1c6f2b3067bcc1725cb3032f651d45a0ff6615037e1fcc7cd9d58f854cb0a90a"
+    }
+   ]
+  },
+  {
+   "slug": "arbitration-act",
+   "short": "Arbitration Act",
+   "title": "Arbitration Act, 1980",
+   "url": "https://lesotholii.org/akn/ls/act/1980/12",
+   "versions": [
+    {
+     "from": "1981-10-01",
+     "units": 43,
+     "source_url": "https://lesotholii.org/akn/ls/act/1980/12/eng@1981-10-01",
+     "sha256": "4239863e65364945cdf476670664999995de535d34256895cdd1f472c071c653"
+    }
+   ]
+  }
+ ]
+}
