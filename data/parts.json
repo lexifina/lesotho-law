@@ -1,0 +1,23 @@
+{
+ "parts": {
+  "70-penal-code.json": {
+   "acts": [
+    "penal-code"
+   ],
+   "sha256": "39b88633dbf8ab4190531c2d6cd45c58264ff43ea9ad7159dc263c6e3c59679f"
+  },
+  "75-childrens-protection-and-welfare.json": {
+   "acts": [
+    "childrens-protection-and-welfare"
+   ],
+   "sha256": "f358dd51c6dc193af126addf23420f737fa90eabd15ce63af15c3cb7329342f1"
+  },
+  "77-arbitration-act.json": {
+   "acts": [
+    "arbitration-act"
+   ],
+   "sha256": "8ae5ab8963c1a38a0a59c29fa37eade5f4b3aeb5f83888eeb2caf6e3bff9a261"
+  }
+ },
+ "schema": 1
+}
