@@ -10,6 +10,10 @@ It follows the shared design of [lexifina/global-law](https://github.com/lexifin
 | --- | --- | ---: | --- |
 | `money-laundering/` | [Money Laundering and Proceeds of Crime Act, 2008](https://lesotholii.org/akn/ls/act/2008/4) | 5 | 2009-04-01 to 2015-09-25 |
 | `anti-trafficking/` | [Anti-Trafficking in Persons Act, 2011](https://lesotholii.org/akn/ls/act/2011/1) | 2 | 2011-01-11 to 2021-01-14 |
+| `penal-code/` | [Penal Code Act, 2012](https://lesotholii.org/akn/ls/act/2012/6) | 1 | 2012-03-09 |
+| `childrens-protection-and-welfare/` | [Children's Protection and Welfare Act, 2011](https://lesotholii.org/akn/ls/act/2011/7) | 1 | 2011-03-31 |
+| `arbitration-act/` | [Arbitration Act, 1980](https://lesotholii.org/akn/ls/act/1980/12) | 1 | 1981-10-01 |
+| `administration-of-estates-and-inheritance/` | [Administration of Estates and Inheritance Act, 2024](https://lesotholii.org/akn/ls/act/2024/2) | 1 | 2024-04-02 (pending independent review; as published) |
 
 **Money Laundering and Proceeds of Crime Act, 2008**
 
@@ -105,3 +109,7 @@ See [LICENSE](LICENSE). Source: LesLII (https://lesotholii.org), licensed under 
 LesLII's terms: CC BY-NC 4.0, crediting LesLII as the source (https://lesotholii.org/terms-of-use/, read from the Internet Archive's copy). Lexifina's arrangement, messages, tables and tools are CC0.
 
 This repository is not legal advice. Lesotho's laws are published in English, so there is no separate summary in another language.
+
+## Administration of Estates and Inheritance Act, 2024: proposed addition
+
+A new part awaits independent review. It contains the official text as published in Lesotho Government Gazette 21 of 2 April 2024, commencing that day under section 1. One full-text file includes 117 sections and five schedules with their forms. The separate Statement of Objects and Reasons is outside the act. No later consolidation is asserted.

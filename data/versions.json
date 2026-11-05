@@ -100,6 +100,20 @@
      "sha256": "4239863e65364945cdf476670664999995de535d34256895cdd1f472c071c653"
     }
    ]
+  },
+  {
+   "slug": "administration-of-estates-and-inheritance",
+   "short": "Administration of Estates and Inheritance Act",
+   "title": "Administration of Estates and Inheritance Act, 2024",
+   "url": "https://lesotholii.org/akn/ls/act/2024/2",
+   "versions": [
+    {
+     "from": "2024-04-02",
+     "units": 1,
+     "source_url": "https://web.archive.org/web/20240805134300id_/https://lesotholii.org/akn/ls/act/2024/2/eng@2024-04-02/source.pdf",
+     "sha256": "45ec306984506ade074149a5f8f85e8ba3ad0b685933770ec1b9e152af7c3ff8"
+    }
+   ]
   }
  ]
 }

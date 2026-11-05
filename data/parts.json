@@ -17,6 +17,12 @@
     "arbitration-act"
    ],
    "sha256": "8ae5ab8963c1a38a0a59c29fa37eade5f4b3aeb5f83888eeb2caf6e3bff9a261"
+  },
+  "90-q45-estates.json": {
+   "acts": [
+    "administration-of-estates-and-inheritance"
+   ],
+   "sha256": "8d5caa3b1b1dd05c9e973b60dd8e033b4daa89cefb159e11609b3d21e8821088"
   }
  },
  "schema": 1

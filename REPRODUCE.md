@@ -1,6 +1,6 @@
 # How this repository was made (Lesotho)
 
-This file is written by the build on 2026-10-30, the day the source data was retrieved.
+This file is written by the build on 2026-11-05, the day the source data was retrieved.
 
 ## Sources
 
@@ -17,6 +17,7 @@ This file is written by the build on 2026-10-30, the day the source data was ret
 | LesLII, the Lesotho Legal Information Institute (supported by the Judiciary of Lesotho, the Law Office and the Law Society; on the Laws.Africa Peachjam platform) (Arbitration Act) | <https://lesotholii.org> | 2026-10-30 | CC BY-NC 4.0, crediting LesLII as the source (https://lesotholii.org/terms-of-use/, read from the Internet Archive's copy) |
 | Internet Archive Wayback Machine (Arbitration Act) | <https://web.archive.org> | 2026-10-30 | Archived copies of LesLII pages; the content licence is LesLII's |
 |  | <https://commoncrawl.org> | 2026-10-30 | the content's licence is LesLII's |
+| Lesotho Government Gazette 21 (Administration of Estates and Inheritance Act) | <https://web.archive.org/web/20240805134300id_/https://lesotholii.org/akn/ls/act/2024/2/eng@2024-04-02/source.pdf> | 2026-11-05 | LesLII: Creative Commons Attribution-NonCommercial 4.0 International; credit LesLII (https://lesotholii.org). |
 
 Every word of law in this repository comes from these sources. Lexifina reads them and records each act's dated versions, and the laws that made each change, in one corpus file. This repository is built from that file.
 
@@ -29,20 +30,21 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `penal-code` | Penal Code Act, 2012 | 1 | 2012-03-09 to 2012-03-09 |
 | `childrens-protection-and-welfare` | Children's Protection and Welfare Act, 2011 | 1 | 2011-03-31 to 2011-03-31 |
 | `arbitration-act` | Arbitration Act, 1980 | 1 | 1981-10-01 to 1981-10-01 |
+| `administration-of-estates-and-inheritance` | Administration of Estates and Inheritance Act, 2024 | 1 | 2024-04-02 to 2024-04-02 |
 
-The build made 10 commits:
+The build made 11 commits:
 
 | Commits | Kind |
 | ---: | --- |
-| 5 | first version of an act |
+| 6 | first version of an act |
 | 5 | one law on its in-force day |
 | 0 | changes no amendment note explains, credited to the publisher |
 
 Other counts:
-- 0 commits on the branch `future`: laws not yet in force on 2026-10-30.
+- 0 commits on the branch `future`: laws not yet in force on 2026-11-05.
 - 0 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
 - 10 laws in the record.
-- 20 tags.
+- 21 tags.
 
 ## Dates
 
@@ -54,13 +56,13 @@ When a law gives no date of its own, the default rule applies: Not applied: ever
 
 `tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
 
-- Corpus: sha256 `89f66a3d49927fe513ceee5c0a5777a4e388234cb18b990a1f79adc7721e5033` (696058 bytes).
+- Corpus: sha256 `d1e05dd787292e385e51a93629ab3e55420c2692bb72cdc72bcadbe80b3e1ec3` (824274 bytes).
 - Builder blob hashes (`git hash-object`): `build.py` `35388bee5aa05369f7da68f5a8fa015ea8d442b8`, `check.py` `5d719354ea4c62d240c93d2cae446307d81d9e81`, `on.py` `aff48cf1b68d50c7ba8f399ca32261871c301824`.
 - Python 3.14.4; git version 2.53.0.
 
 ## Checks
 
-10 versions of 5 acts read back from git on the day each took effect and on the day before: 0 mismatches. Trailers: 0 commits whose trailers git cannot parse. Health: 0 merge commits on main, 0 commit dates that go backwards, 0 commits dated after the build.
+11 versions of 6 acts read back from git on the day each took effect and on the day before: 0 mismatches. Trailers: 0 commits whose trailers git cannot parse. Health: 0 merge commits on main, 0 commit dates that go backwards, 0 commits dated after the build.
 
 No second build of this corpus has been compared yet.
 
@@ -80,6 +82,9 @@ No second build of this corpus has been compared yet.
 - Penal Code: LesLII's History lists no amendment after commencement (archived copy of 2026-01-12); the one version is the Act as published.
 - Children's Protection and Welfare Act: in force 2011-03-31, the day of its publication in Government Gazette 40, the commencement LesLII states. LesLII lists no amendment.
 - Arbitration Act: dated 1981-10-01, the commencement LesLII's coverpage states ("Commenced on 1 October 1981"); LesLII links the commencement to the Pension Scheme (Corporate Bodies) Act, 1979, which is how its page reads, not a sourced commencement instrument. LesLII lists no amendment.
+- Administration of Estates and Inheritance Act: in force 2024-04-02 under section 1, which makes commencement the date of publication in the Gazette; the Gazette cover and LesLII history both give 2 April 2024.
+- Administration of Estates and Inheritance Act: one full-text unit preserves the official native PDF text, its long title, enacting formula, 117 sections, five textual schedules and forms. Printed page numbers and excess typesetting spaces are removed; no legal words are corrected.
+- Administration of Estates and Inheritance Act: oldest version available, as published in 2024; no later consolidated version is asserted. There are no normative raster images on the act pages; the Gazette cover contains one decorative coat of arms.
 
 ## What AI did and did not do
 
@@ -94,3 +99,4 @@ Model use at data-build time:
 - Penal Code: none at data-build time; units are parsed by code from the published page.
 - Children's Protection and Welfare Act: none at data-build time; units are parsed by code from the published page.
 - Arbitration Act: none at data-build time; units are parsed by code from the published page.
+- GPT-6 wrote extraction and validation code and selected the source boundaries. No model wrote or corrected legal text; native PDF text is extracted by code.
