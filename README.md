@@ -1,117 +1,88 @@
 # Lesotho: law history in git
 
+The law of Lesotho as a git history: one file per provision, one commit per version on the day it took effect, and the law that made each change as the commit's author. `git blame` names the law behind every paragraph; `git log` lists every change to a provision; picking a date gives the text in force that day.
+
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Lesotho's national law, which global-law reads at `lesotho/national/acts/`.
 
-The law of Lesotho as a git history: one file per provision, one commit per law on the day it took effect, and the law that made each change as the commit's author. `git blame` names the law behind every paragraph; `git log` lists every change to a provision; `tools/on.py` gives the text in force on any day.
+**What is in it now:** six acts, with 11 versions: the Money Laundering and Proceeds of Crime Act, 2008, in 5 versions (2009 to 2015); the Anti-Trafficking in Persons Act, 2011, in 2 (2011 and 2021); and the Penal Code Act, 2012, the Children's Protection and Welfare Act, 2011, the Arbitration Act, 1980 and the Administration of Estates and Inheritance Act, 2024, in one each. The Constitution of 1993, as it came into operation, is on the `preview` branch, not on `main` (see below). Each act's `README.md` lists its provisions and how often each changed; [`data/versions.json`](data/versions.json) lists every version with its source.
 
-It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law), which places it at `ls/`. Every version is a dated point-in-time version published by [LesLII](https://lesotholii.org) on the Laws.Africa Peachjam platform.
+Each act has its own folder, one file per provision: `anti-trafficking/sec-005.md` is section 5 of the Anti-Trafficking in Persons Act, 2011, the offence of trafficking. The Administration of Estates and Inheritance Act, 2024 is one file, `administration-of-estates-and-inheritance/full-text.md`.
 
-**What is in it now**
+The text is in English, the language Lesotho's laws are published in, as LesLII prints it.
 
-| Folder | Act | Versions | History |
-| --- | --- | ---: | --- |
-| `money-laundering/` | [Money Laundering and Proceeds of Crime Act, 2008](https://lesotholii.org/akn/ls/act/2008/4) | 5 | 2009-04-01 to 2015-09-25 |
-| `anti-trafficking/` | [Anti-Trafficking in Persons Act, 2011](https://lesotholii.org/akn/ls/act/2011/1) | 2 | 2011-01-11 to 2021-01-14 |
-| `penal-code/` | [Penal Code Act, 2012](https://lesotholii.org/akn/ls/act/2012/6) | 1 | 2012-03-09 |
-| `childrens-protection-and-welfare/` | [Children's Protection and Welfare Act, 2011](https://lesotholii.org/akn/ls/act/2011/7) | 1 | 2011-03-31 |
-| `arbitration-act/` | [Arbitration Act, 1980](https://lesotholii.org/akn/ls/act/1980/12) | 1 | 1981-10-01 |
-| `administration-of-estates-and-inheritance/` | [Administration of Estates and Inheritance Act, 2024](https://lesotholii.org/akn/ls/act/2024/2) | 1 | 2024-04-02 (pending independent review; as published) |
-
-**Money Laundering and Proceeds of Crime Act, 2008**
-
-| In force | Author |
-| --- | --- |
-| 2009-04-01 | Act 4 of 2008 (as enacted) |
-| 2011-06-10 | Legal Notice 68 of 2011 |
-| 2012-07-01 | Legal Notice 82 of 2012 |
-| 2013-03-28 | Legal Notice 30 of 2013 |
-| 2015-09-25 | Legal Notice 112 of 2015 |
-
-**Anti-Trafficking in Persons Act, 2011**
-
-| In force | Author |
-| --- | --- |
-| 2011-01-11 | Act 1 of 2011 (as enacted) |
-| 2021-01-14 | Act 1 of 2021 |
-
-Each folder's `README.md` lists every provision, how often it changed and when.
-
-## A lawyer's questions as git commands
+## Questions as git commands
 
 | Question | Command |
 | --- | --- |
-| What did sec-014 say on 2009-04-01? | `python tools/on.py 2009-04-01 money-laundering sec-014` |
-| The same, with raw git (bash) | `git show $(git rev-list -1 --before="2009-04-01T23:59:59Z" main -- money-laundering/sec-014.md):money-laundering/sec-014.md` |
-| The same, in PowerShell | `$r = git rev-list -1 --before="2009-04-01T23:59:59Z" main -- money-laundering/sec-014.md; git show "$($r):money-laundering/sec-014.md"` |
-| Which law wrote each line? | `git blame money-laundering/sec-014.md` |
-| Every change, word by word | `git log -p --word-diff money-laundering/sec-014.md` |
-| Every law in the record, in order | `git log --reverse --format="%ad %an" --date=short main` |
-| Everything one law changed | `git show law/<key>` (tags `law/<key>` mark each law's commit) |
-| The whole act on a date | `python tools/on.py 2009-04-01 money-laundering` |
-| Which law gave a provision its wording on a date | `python tools/on.py --law 2009-04-01 money-laundering sec-014` |
+| Every change to section 5 of the Anti-Trafficking in Persons Act | `git log -p --word-diff -- anti-trafficking/sec-005.md` |
+| Which law wrote each line of section 5? | `git blame anti-trafficking/sec-005.md` |
+| Every version of the Act, with the day each took effect | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- anti-trafficking ':!*/README.md'` |
+| Section 5 as in force on 1 January 2015 | `python tools/on.py 2015-01-01 anti-trafficking sec-005` |
 
-After a rebuild, refresh tags with `git fetch --force --tags`: a plain fetch keeps stale tags.
+**Outside git**, we also host this record publicly, for free:
+
+- **[Ask Claude about Lesotho law](https://global-law.lexifina.com/v1/try_claude?country=lesotho)**: opens Claude with a first question ready.
+- **[Ask ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=lesotho)**: the same question in ChatGPT.
+- **[Call the API in your browser](https://global-law.lexifina.com/v1/search_law?query=trafficking&jurisdictions=lesotho)**: a search of Lesotho law for "trafficking", returned as JSON. See the [documentation here](https://lexifina.com/api/global-law).
+
+Both assistants read the record through the free Global law connector (MCP, `https://global-law.lexifina.com/mcp`); the first time, the chat gives you the link that adds it. Ask in English.
+
+**Host it yourself easily.** All it takes is git and Python, and the tools run on your machine:
+
+```sh
+git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
+python3 tools/countries.py add lesotho/national/acts
+python3 tools/law.py show 2026-01-01 lesotho/national/acts/anti-trafficking/sec-005.md
+```
+
+Opened in Claude Code, Cursor, VS Code or Codex, the clone also starts a local MCP server with the same tools ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
 
 ## Dates
 
-- Each commit is dated at **noon, Africa/Maseru, on the day the change took effect**. The day is also in the `In-force:` trailer, which the tools read; enactment (assent) and Gazette publication dates are trailers too, where LesLII states them.
-- **The day is LesLII's.** Each version is a Laws.Africa expression, and its date is the day the amendment it takes in came into force, as the amendment list says ("[Amended by <Act> on <date>]"). For a consolidation (a revised edition) it is the date the edition is as at. An act's original expression is dated by its Gazette publication; where LesLII gives a later commencement date ("Commenced on ..."), the first version is dated by that instead (see REPRODUCE.md, decisions).
-- `--before="YYYY-MM-DD"` alone uses your clock's time of day, so a law that took effect that day may be missed before noon. Use `T23:59:59Z` as above, or the tool.
+Each commit is dated at noon, Africa/Maseru, on the day the version took effect, and carries it in its `In-force:` trailer:
+
+- for an amendment, the day LesLII's dated version gives it ("Amended by ... on ..."): Act 1 of 2021 took effect on 14 January 2021;
+- for an act as first published, the commencement LesLII states, else its Gazette day; the Money Laundering and Proceeds of Crime Act came into force in three stages (1 April 2009; sections 14 and 15 on 10 June 2011; section 18 on 1 July 2012), each its own commit;
+- commits are appended in the order they were built, not by date (the 2024 Act's comes after the 2026 documentation commits in `git log`), so ask for a date with `tools/on.py`, which reads the trailer.
+
+The first version of each act is credited to the act as enacted (`Act 6 of 2012`), except the 2024 Act's, read from Government Gazette 21 of 2 April 2024 as the oldest version available and credited to the publisher, `LesLII`. Each later version is credited to the law LesLII names for it: a commencement notice (Legal Notice 68 of 2011), a notice amending a Schedule (Legal Notice 30 of 2013) or an amending Act (Act 1 of 2021); none is left unexplained.
 
 ## How it is checked
 
-- Every version is read back from git on the day it took effect and on the day before (`tools/check_repo.py`); both must match `corpus.json`. Results are in `REPRODUCE.md`.
-- **Against LesLII:** LesLII's own pages are never read, so the last version of each act is the latest expression archived. For the two acts on LesLII's current site, that expression's own History tab (archived June 2023) names every later amendment; any it lists after the last version is not applied, and is named under "Lesotho: what is missing" below.
-- **Every version is its own dated expression**: each was parsed from an archived copy of exactly that expression's page, whose sha256 is recorded with the version.
-- The repository is rebuilt from the same data a second time and must give identical hashes.
-
-## What "author" means
-
-The author of a commit is the law that made the change, with an e-mail address that cannot exist, so `git blame` and `git log --author` name laws. The committer is always Lexifina.
-
-- **Credits come only from LesLII's own notes.** A version whose History entry names one amending Act is credited to it. Where one version takes in several Acts, or a revised edition, a provision is credited to an Act only if LesLII's editorial note in that provision names it ("[section 5 amended by section 2 of Act 3 of 2020]"); the rest are committed by the publisher and labelled "unexplained", and the commit message names the Acts the version takes in.
-- **The first commit** is the act as enacted where that is the oldest version; otherwise it is the oldest version available (a consolidation), credited to the publisher.
-- Blame credits whole lines (one paragraph per line). Use `git log -p --word-diff` to see exactly which words each change made.
+- `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before, and compares it with the corpus: 11 versions of 6 acts, 0 mismatches, and no commit whose trailers git cannot parse (see [`REPRODUCE.md`](REPRODUCE.md)).
+- Each version is parsed from an archived copy of its own dated LesLII page (the 2024 Act from the Gazette PDF LesLII holds), whose sha256 is recorded in `data/versions.json`; all of a version's text must land in a provision file.
+- **Credits** come only from LesLII's own notes: each act's History, its commencements and the editorial notes in each provision.
+- History is append-only: no merge commits, and no published commit is rewritten.
 
 ## What it does not show
 
-- **Only the versions LesLII publishes.** Changes before its oldest version are not separate commits.
-- **Editorial notes.** LesLII's bracketed notes ("[Act No. 18 of 1996]", "[section 5 amended by ...]") are left out of the text and used only for credits, except where a provision has no other text (repealed or spent), where the note is what LesLII prints and is kept.
-- **Headings above the provision** (Part, Chapter, Division) are left out; each file starts with its own number and heading. Footnotes are kept at the end of the file.
-- **Amendments not yet applied.** Where the LII lists an amendment as not yet applied to its consolidated text, it is not in this history; REPRODUCE.md lists each one.
-- **No OCR.** Acts the LII shows only as scanned PDFs are not included.
-
-## Lesotho: what is missing, and why
-
-**The Constitution of Lesotho (1993).** The folder `constitution/` holds the Constitution **as it came into operation on 2 April 1993, and nothing after it**. LesLII's current site has no archived copy of any version of the Constitution, so its text is read from the archived page of LesLII's earlier website (`lesotholii.org/ls/legislation/num-act/1993/1`, Internet Archive copy of 26 March 2023), whose editorial note calls it "the official text". None of the amending Acts is applied: no archived copy gives a dated consolidated text after them, and this repository does not reconstruct one. The earlier page names five of them (the Second Amendment of the Constitution Act 1997, the Fourth Amendment to the Constitution Act 2001, the Fifth Amendment to the Constitution Act 2004, and the Sixth and Seventh Amendments of 2011); there are others it does not list. **So `constitution/` is not the Constitution in force today.** For that reason the Constitution is kept in an unverified part of the data and builds only to the `preview` branch, not to `main`.
-
-**Money Laundering and Proceeds of Crime Act, 2008.** LesLII lists two later amendments that its own latest version does not apply: the Money Laundering and Proceeds of Crime (Amendment) Act, 2016 (dated 6 February 2017) and the Amendment of Schedule Notice, 2017 (dated 30 June 2017). They are not in this history, so from 6 February 2017 the text here is not the law in force. The Act came into force in three stages (1 April 2009; sections 14 and 15 on 10 June 2011; section 18 on 1 July 2012), as LesLII's commencements table gives them; each stage is its own commit.
-
-**Other acts.** The Internet Archive holds archived copies of LesLII expression pages for 142 Lesotho acts and legal notices, but only these two have more than one version archived; nothing else could be built with a history.
-
-## Sources and research guides
-
-From the World Law Sources register (28 October 2026): LesLII (https://lesotholii.org) is Lesotho's official free legislation source, on the Laws.Africa platform, with past versions by date but no API or bulk download. Research guides that cover every country: [GlobaLex](https://www.nyulawglobal.org/globalex/) and the [Law Library of Congress Guide to Law Online](https://www.loc.gov/research-centers/law-library-of-congress/researcher-resources/guide-to-law-online/).
-
-## How it is built
-
-Lexifina reads the sources listed here and records each act's dated versions, and the laws that made each change, in one corpus file. `tools/build.py` writes this repository from that file, and the same corpus always gives the same commit hashes; `REPRODUCE.md` gives the details and the checks. A model (Claude) wrote Lexifina's code; it wrote no legal text, and no model runs when the history is built.
+- **The Constitution on `main`.** Only its 1993 text as it came into operation is held, from LesLII's earlier website; none of the amending Acts (1997, 2001, 2004, 2011 and others) is applied, so it stays on `preview`.
+- **Money laundering law after 2017.** LesLII lists the Money Laundering and Proceeds of Crime (Amendment) Act, 2016 (6 February 2017) and an Amendment of Schedule Notice, 2017 (30 June 2017), which its own latest version does not apply; from 6 February 2017 the text here is not the law in force.
+- **Other law.** Of 142 Lesotho acts and legal notices with an archived LesLII page, six are here; there is no subsidiary legislation, case law or bill.
+- **Earlier history.** Every change before an act's oldest version here is folded into it.
+- **Editorial matter.** LesLII's bracketed notes are read for credits only (kept where a provision has no other text), and Part, Chapter and Division headings are left out; each file starts with its own number and heading.
+- **Changes within a line.** Each paragraph is one line (the 2024 Act keeps the Gazette's line breaks), so blame credits a whole paragraph to the law that changed one word of it.
 
 ## Sources
 
-| Source | What it gives | Used for |
-| --- | --- | --- |
-| [LesLII](https://lesotholii.org) | Dated point-in-time versions (expressions) of each act, its History and amendment list, and per-provision editorial notes; its earlier website (to 2023) printed the Constitution of 1993 | The text and dates of every version |
-| [Internet Archive](https://web.archive.org/) | Archived copies of those expression pages | Reading them |
+| Source | Kind | Past versions | Notes |
+| --- | --- | --- | --- |
+| [LesLII](https://lesotholii.org), the Lesotho Legal Information Institute (Laws.Africa Peachjam) | Free legislation, supported by the Judiciary, the Law Office and the Law Society | yes, dated versions; here only those archived | Each version's text and date, its History and editorial notes; its earlier website printed the 1993 Constitution |
+| [Internet Archive](https://web.archive.org/) | Web archive | as captured | Archived copies of those LesLII pages, and of the Gazette PDF of the 2024 Act |
 
 ## Licence
 
-See [LICENSE](LICENSE). Source: LesLII (https://lesotholii.org), licensed under the Creative Commons Attribution-NonCommercial 4.0 International licence (CC BY-NC 4.0).
+See [`LICENSE`](LICENSE). LesLII licenses its texts under CC BY-NC 4.0, crediting LesLII as the source, so they may be used only for non-commercial purposes. Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are CC0 1.0.
 
-LesLII's terms: CC BY-NC 4.0, crediting LesLII as the source (https://lesotholii.org/terms-of-use/, read from the Internet Archive's copy). Lexifina's arrangement, messages, tables and tools are CC0.
+No AI model wrote, translated or corrected legal text, and none runs when the history is built; the scripts were written by AI models, Claude and, for the 2024 Act, GPT-6 (see [`REPRODUCE.md`](REPRODUCE.md)).
 
-This repository is not legal advice. Lesotho's laws are published in English, so there is no separate summary in another language.
+## More
 
-## Administration of Estates and Inheritance Act, 2024: proposed addition
+From [lexifina/global-law](https://github.com/lexifina/global-law):
 
-A new part awaits independent review. It contains the official text as published in Lesotho Government Gazette 21 of 2 April 2024, commencing that day under section 1. One full-text file includes 117 sections and five schedules with their forms. The separate Statement of Objects and Reasons is outside the act. No later consolidation is asserted.
+- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): every feature, and what every corpus must support (`git blame`, `law.py`, the MCP tools)
+- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): questions and answers · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proposing changes · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): the MCP server · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): how it was built · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
+- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): how current each corpus is · [Monitoring](https://github.com/lexifina/global-law/tree/main/monitoring): whether updates are running · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): how each official source is watched for changes
+- [performance/](https://github.com/lexifina/global-law/tree/main/performance): how fast the tools are, measured
+- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): charts and bridges across the world's law
+- [Vulnerabilities](https://github.com/lexifina/global-law/tree/main/vulnerabilities): mistakes in legislation as published
