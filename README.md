@@ -59,6 +59,7 @@ The first version of each act is credited to the act as enacted (`Act 6 of 2012`
 - Each version is parsed from an archived copy of its own dated LesLII page (the 2024 Act from the Gazette PDF LesLII holds), whose sha256 is recorded in `data/versions.json`; all of a version's text must land in a provision file.
 - **Credits** come only from LesLII's own notes: each act's History, its commencements and the editorial notes in each provision.
 - History is append-only: no merge commits, and no published commit is rewritten.
+- [vulnerabilities/](vulnerabilities/): possible drafting mistakes in this law, found by global-law's detectors and checked by hand. Not run yet.
 
 ## What it does not show
 
@@ -81,6 +82,10 @@ The first version of each act is credited to the act as enacted (`Act 6 of 2012`
 See [`LICENSE`](LICENSE). LesLII licenses its texts under CC BY-NC 4.0, crediting LesLII as the source, so they may be used only for non-commercial purposes. Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are CC0 1.0.
 
 No AI model wrote, translated or corrected legal text, and none runs when the history is built; the scripts were written by AI models, Claude and, for the 2024 Act, GPT-6 (see [`REPRODUCE.md`](REPRODUCE.md)).
+
+## Visualisations
+
+- [visualisations/](visualisations/): charts drawn from this repository. Not drawn yet.
 
 ## More
 
