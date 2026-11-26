@@ -114,6 +114,711 @@
      "sha256": "45ec306984506ade074149a5f8f85e8ba3ad0b685933770ec1b9e152af7c3ff8"
     }
    ]
+  },
+  {
+   "slug": "land-act-2010",
+   "short": "Land Act 2010",
+   "title": "Land Act 2010",
+   "url": "https://www.ecolex.org/details/legislation/land-act-2010-act-no-8-of-2010-lex-faoc119080/",
+   "versions": [
+    {
+     "from": "2010-06-14",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les119080.pdf",
+     "sha256": "96d6015189a89dfb9ca2d0388e09391b70e9d4efdd2d47a9fee28565f7de7aad",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "water-resources-act-1978",
+   "short": "Water Resources Act 1978",
+   "title": "Water Resources Act 1978",
+   "url": "https://www.ecolex.org/details/legislation/water-resources-act-1978-no-22-of-1978-lex-faoc001268/",
+   "versions": [
+    {
+     "from": "1979-04-01",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les1268.pdf",
+     "sha256": "9e84ebdebf5b3a2ecb65e469d7dcbedfddabf8ab15dad4ac31925d644ec6b7ba",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "tourism-amendment-act-2006",
+   "short": "Tourism (Amendment) Act 2006",
+   "title": "Tourism (Amendment) Act, 2006",
+   "url": "https://www.ecolex.org/details/legislation/tourism-amendment-act-2006-no-1-of-2006-lex-faoc128412/",
+   "versions": [
+    {
+     "from": "2006-02-17",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les128412.pdf",
+     "sha256": "7271436a0065b5923bbe45b620b56882605386cb8fb476dfe0b562ab0bb97f97",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "land-husbandry-act-1969",
+   "short": "Land Husbandry Act 1969",
+   "title": "Land Husbandry Act 1969",
+   "url": "https://www.ecolex.org/details/legislation/land-husbandry-act-1969-no-22-of-1969-lex-faoc128414/",
+   "versions": [
+    {
+     "from": "1969-05-16",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les128414.pdf",
+     "sha256": "c6c17cae0ab852f53436095240fc24cab2085c25155b199c484784590f0451b5",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "land-husbandry-amendment-act-1974",
+   "short": "Land Husbandry (Amendment) Act 1974",
+   "title": "Land Husbandry (Amendment) Act 1974",
+   "url": "https://www.ecolex.org/details/legislation/land-husbandry-amendment-act-no-19-of-1974-lex-faoc128419/",
+   "versions": [
+    {
+     "from": "1975-02-28",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les128419.pdf",
+     "sha256": "e1ed966df206e6eb6d8dc6af98e8da51223459d132776d2c899398ba63a7ee46",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "lesotho-highlands-development-authority-order-1986",
+   "short": "Lesotho Highlands Development Authority Order 1986",
+   "title": "Lesotho Highlands Development Authority Order, 1986",
+   "url": "https://www.ecolex.org/details/legislation/lesotho-highlands-development-authority-order-no-23-of-1986-lex-faoc128641/",
+   "versions": [
+    {
+     "from": "1986-10-24",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les128641.pdf",
+     "sha256": "4e1b417ef617e58737a72f75bbcb42b7db9db1ba9d77b1040d4419fe4f905de3",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "weeds-eradication-act-1969",
+   "short": "Weeds Eradication Act 1969",
+   "title": "Weeds Eradication Act 1969",
+   "url": "https://www.ecolex.org/details/legislation/weeds-eradication-act-no-18-of-1969-lex-faoc128653/",
+   "versions": [
+    {
+     "from": "1969-05-16",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les128653.pdf",
+     "sha256": "c97e6f024e5b41f6b224db386c8ae65b230a573133ff435734978a948351fe17",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "environment-act-2008",
+   "short": "Environment Act 2008",
+   "title": "Environment Act 2008",
+   "url": "https://www.ecolex.org/details/legislation/environment-act-2008-no-10-of-2008-lex-faoc128916/",
+   "versions": [
+    {
+     "from": "2008-12-05",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les128916.pdf",
+     "sha256": "85071cf2094642b12c90d3872d3367bfab3091764b0dd37a9c831e9a7d758a65",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "water-act-2008",
+   "short": "Water Act 2008",
+   "title": "Water Act, 2008",
+   "url": "https://www.ecolex.org/details/legislation/water-act-2008-no-15-of-2008-lex-faoc139287/",
+   "versions": [
+    {
+     "from": "2008-12-30",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les139287.pdf",
+     "sha256": "bbe690d422b12017645d64eb631dcda5dc62a9ae898c4ed73faef9ffc26199d0",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "co-operative-societies-act-2000",
+   "short": "Co-operative Societies Act 2000",
+   "title": "Co-operative Societies Act 2000",
+   "url": "https://www.ecolex.org/details/legislation/co-operative-societies-act-no-6-of-2000-lex-faoc142120/",
+   "versions": [
+    {
+     "from": "2000-09-15",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les142120.pdf",
+     "sha256": "784c433e9ebbf7b0b53673c9baaac456d713759bb8fd558ef8a4137ce21dc38f",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "deeds-registry-act-1967",
+   "short": "Deeds Registry Act 1967",
+   "title": "Deeds Registry Act 1967",
+   "url": "https://www.ecolex.org/details/legislation/deeds-registry-act-no-12-of-1967-lex-faoc142167/",
+   "versions": [
+    {
+     "from": "1967-05-15",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les142167.pdf",
+     "sha256": "daa384d4ac40923d3a6434f7f35cf03806d4817c1a2cf1044243b19d4b3f7855",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "agricultural-marketing-act-1967",
+   "short": "Agricultural Marketing Act 1967",
+   "title": "Agricultural Marketing Act 1967",
+   "url": "https://www.ecolex.org/details/legislation/agricultural-marketing-act-no-26-of-1967-lex-faoc154396/",
+   "versions": [
+    {
+     "from": "1967-07-14",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les154396.pdf",
+     "sha256": "266a5d2a671b11eb1c03688632ab8a72729d9874692b94fb2eca2aa9265a0220",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "agricultural-marketing-egg-control-regulations-1969",
+   "short": "Egg Control Regulations 1969",
+   "title": "Agricultural Marketing (Egg Control) Regulations 1969",
+   "url": "https://www.ecolex.org/details/legislation/agricultural-marketing-egg-control-regulations-1969-ln-no-35-of-1969-lex-faoc154397/",
+   "versions": [
+    {
+     "from": "1969-08-29",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les154397.pdf",
+     "sha256": "95d4e092f8c0bedbfbde5d4d594e16bb5dd0555db58a9fdca20557eaed6ead61",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "agricultural-marketing-egg-control-amendment-regulations-2014",
+   "short": "Egg Control (Amendment) Regulations 2014",
+   "title": "Agricultural Marketing (Egg Control) (Amendment) Regulations, 2014",
+   "url": "https://www.ecolex.org/details/legislation/agricultural-marketing-egg-control-amendment-regulations-2014-ln-no-10-of-2014-lex-faoc154401/",
+   "versions": [
+    {
+     "from": "2014-02-21",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les154401.pdf",
+     "sha256": "eafb2086f8863f00b4581a4104be3a19b5e3d7a47c79c5205ba96921eb528b2b",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "lewa-resolution-of-complaints-water-sewerage-rules-2013",
+   "short": "LEWA Complaints (Water and Sewerage) Rules 2013",
+   "title": "Lesotho Electricity and Water Authority (Resolution of Complaints for Water and Sewerage Services) Rules, 2013",
+   "url": "https://www.ecolex.org/details/legislation/lewa-resolution-of-complaints-for-water-and-sewerage-services-rules-2013-ln-no-102-of-2013-lex-faoc179999/",
+   "versions": [
+    {
+     "from": "2013-09-06",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les179999.pdf",
+     "sha256": "c18a52bc2d13ab80dd5e0398e5229967ad3876bc86051f5591f2aa7b1478e88e",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "livestock-import-export-amendment-act-1984",
+   "short": "Livestock Import and Export (Amendment) Act 1984",
+   "title": "Importation and Exportation of Livestock and Livestock Products Proclamation (Amendment) Act 1984",
+   "url": "https://www.ecolex.org/details/legislation/importation-and-exportation-of-livestock-and-livestock-products-proclamation-amendment-act-1984-no21-of-1984-lex-faoc154406/",
+   "versions": [
+    {
+     "from": "1984-08-03",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les154406.pdf",
+     "sha256": "37df4aad94ee4a33fdf51065f7b77c165cdb3dd445c4b620c5734f67847c17b7",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "agricultural-marketing-dairy-products-regulations-1992",
+   "short": "Dairy Products Regulations 1992",
+   "title": "Agricultural Marketing (Distribution of Dairy Products) Regulations, 1992",
+   "url": "https://www.ecolex.org/details/legislation/agricultural-marketing-distribution-of-dairy-products-regulations-1992-ln-no-241-of-1992-lex-faoc154410/",
+   "versions": [
+    {
+     "from": "1992-10-02",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les154410.pdf",
+     "sha256": "adca2c8964e089d9196d39377a6907f229136a4a9406e085485f7dcfd33920e5",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "lesotho-electricity-authority-act-2002",
+   "short": "Lesotho Electricity Authority Act 2002",
+   "title": "Lesotho Electricity Authority Act 2002",
+   "url": "https://www.ecolex.org/details/legislation/lesotho-electricity-authority-act-no-12-of-2002-lex-faoc154457/",
+   "versions": [
+    {
+     "from": "2002-06-20",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les154457.pdf",
+     "sha256": "1b7e38c46f97ba8f2c923c7042089ed9353a4aabd4e161249b1a8c0a968c775e",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "lesotho-electricity-authority-amendment-act-2006",
+   "short": "LEA (Amendment) Act 2006",
+   "title": "Lesotho Electricity Authority (Amendment) Act 2006",
+   "url": "https://www.ecolex.org/details/legislation/lesotho-electricity-authority-amendment-act-2006-no-6-of-2006-lex-faoc154458/",
+   "versions": [
+    {
+     "from": "2006-10-13",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les154458.pdf",
+     "sha256": "2734236fdf6b084ba5a051f5b7f4ce9da0b1f108eda2486af4c582b92978dd70",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "lesotho-electricity-authority-amendment-act-2011",
+   "short": "LEA (Amendment) Act 2011",
+   "title": "Lesotho Electricity Authority (Amendment) Act, 2011",
+   "url": "https://www.ecolex.org/details/legislation/lesotho-electricity-authority-amendment-act-2011-no-6-of-2011-lex-faoc154459/",
+   "versions": [
+    {
+     "from": "2011-03-01",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les154459.pdf",
+     "sha256": "ec8bb863f0b0a44af0805eeae43fc985cec0fb336a84949ccb62328440e1d33f",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "lea-application-for-licences-rules-2012",
+   "short": "LEA Licence Application Rules 2012",
+   "title": "Lesotho Electricity Authority (Application for Licences) Rules, 2012",
+   "url": "https://www.ecolex.org/details/legislation/lesotho-electricity-authority-application-for-licences-rules-2012-ln-no-38-of-2012-lex-faoc154460/",
+   "versions": [
+    {
+     "from": "2012-06-08",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les154460.pdf",
+     "sha256": "09888d31e932047f394135354e0427154de04f751ad93267b4e50a4ac724bcf8",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "iodization-regulations-1999",
+   "short": "Iodization Regulations 1999",
+   "title": "Lesotho Iodization Regulations, 1999",
+   "url": "https://www.ecolex.org/details/legislation/lesotho-iodization-regulation-1999-ln-no-13-of-1999-lex-faoc154474/",
+   "versions": [
+    {
+     "from": "1999-03-10",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les154474.pdf",
+     "sha256": "a7082b771e9eb2144a5505160b102c84e6dde348e43b913ce2b91a418f4f61a7",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "lewa-licence-fees-levies-water-sewerage-regulations-2013",
+   "short": "LEWA Water and Sewerage Fees Regulations 2013",
+   "title": "Lesotho Electricity and Water Authority (Licence Fees and Customer Levies for Water and Sewerage Services) Regulations, 2013",
+   "url": "https://www.ecolex.org/details/legislation/lewa-licence-fees-and-customer-levies-for-water-and-sewerage-services-regulations-2013-ln-no-140-of-2013-lex-faoc179998/",
+   "versions": [
+    {
+     "from": "2013-09-27",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les179998.pdf",
+     "sha256": "8afee3a09760508647600b45ad1e55d27b8db481cead398ef16624e4db94d6b1",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "disaster-management-act-1997",
+   "short": "Disaster Management Act 1997",
+   "title": "Disaster Management Act 1997",
+   "url": "https://www.ecolex.org/details/legislation/disaster-management-act-1997-act-no-2-of-1997-lex-faoc018326/",
+   "versions": [
+    {
+     "from": "1997-05-13",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les18326.pdf",
+     "sha256": "07e936dc0594931ed5698672fa5115de65eb8323d1d7d3768ff6690c7b68e7f8",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "land-act-1979",
+   "short": "Land Act 1979",
+   "title": "Land Act 1979",
+   "url": "https://www.ecolex.org/details/legislation/land-act-1979-act-no-17-of-1979-lex-faoc018328/",
+   "versions": [
+    {
+     "from": "1979-12-14",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les18328.pdf",
+     "sha256": "d091b0d8a0e41a1a8427d541511e3b9565e09bcf7d6acffcdb30a8568df8bf8b",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "land-regulations-1980",
+   "short": "Land Regulations 1980",
+   "title": "Land Regulations 1980",
+   "url": "https://www.ecolex.org/details/legislation/land-regulations-1980-l-n-no-15-of-1980-lex-faoc018330/",
+   "versions": [
+    {
+     "from": "1980-08-01",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les18330.pdf",
+     "sha256": "b10bbeb7ad4f4facf634a481fc7c8bceaff70f5f90a35d5ca5761b2eda099530",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "lea-resolution-of-disputes-rules-2010",
+   "short": "LEA Resolution of Disputes Rules 2010",
+   "title": "Lesotho Electricity Authority (Resolution of Disputes) Rules, 2010",
+   "url": "https://www.ecolex.org/details/legislation/lesotho-electricity-authority-resolution-of-disputes-rules-2010-ln-no-34-of-2010-lex-faoc188733/",
+   "versions": [
+    {
+     "from": "2010-03-12",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les188733.pdf",
+     "sha256": "334d5431f83f027e8210f723ccf000711441e6808f25499f1c3c45e9e27a72c5",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "public-health-covid-19-regulations-2020",
+   "short": "Public Health (COVID-19) Regulations 2020",
+   "title": "Public Health (COVID-19) Regulations, 2020",
+   "url": "https://www.ecolex.org/details/legislation/public-health-covid-19-regulations-2020-ln-no-38-of-2020-lex-faoc195072/",
+   "versions": [
+    {
+     "from": "2020-04-22",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les195072.pdf",
+     "sha256": "d2f8156e180ba2f4522d451aab52cab64887128ba5b901a331a836fba739ca29",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "agricultural-marketing-import-of-sugar-regulations-1989",
+   "short": "Import of Sugar Regulations 1989",
+   "title": "Agricultural Marketing (Import of Sugar) Regulations, 1989",
+   "url": "https://www.ecolex.org/details/legislation/agricultural-marketing-import-of-sugar-regulations-l-n-no-176-of-1989-lex-faoc020581/",
+   "versions": [
+    {
+     "from": "1989-12-15",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les20581.pdf",
+     "sha256": "cb04a7faf085091402a1e89b25b62fc18e6b112da5ed064b8b872860218a0e12",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "forestry-act-1998",
+   "short": "Forestry Act 1998",
+   "title": "Forestry Act 1998",
+   "url": "https://www.ecolex.org/details/legislation/forestry-act-1998-no-17-of-1998-lex-faoc020800/",
+   "versions": [
+    {
+     "from": "1998-12-18",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les20800.pdf",
+     "sha256": "dec3ca1668a18c929867bc5c2512360190c6d6beb2a7126efd2ca0f3ff0193ad",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "food-grain-self-sufficiency-fund-regulations-1980",
+   "short": "Food Grain Self-Sufficiency Fund Regulations 1980",
+   "title": "Food Grain Self-Sufficiency Fund Regulations 1980",
+   "url": "https://www.ecolex.org/details/legislation/food-grain-self-sufficiency-fund-regulations-1980-ln-no-51-of-1980-lex-faoc021207/",
+   "versions": [
+    {
+     "from": "1980-12-19",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les21207.pdf",
+     "sha256": "1a8d965f63b6e4f0d05e3cc81cd0ae44a43ad388b9bae063c757428c1216510b",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "water-resources-regulations-1980",
+   "short": "Water Resources Regulations 1980",
+   "title": "Water Resources Regulations 1980",
+   "url": "https://www.ecolex.org/details/legislation/water-resources-regulations-1980-l-n-no-22-of-1980-lex-faoc002500/",
+   "versions": [
+    {
+     "from": "1980-09-05",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les2500.pdf",
+     "sha256": "0410529b3295c23e3ee2fe447efa17a033f9b95a90359a68c06f0ca5d09267d0",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "land-agricultural-lease-regulations-1992",
+   "short": "Agricultural Lease Regulations 1992",
+   "title": "Land (Agricultural Lease) Regulations, 1992",
+   "url": "https://www.ecolex.org/details/legislation/land-agricultural-lease-regulations-1992-ln-no-100-of-1992-lex-faoc041368/",
+   "versions": [
+    {
+     "from": "1992-05-29",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les41368.pdf",
+     "sha256": "c233ff073b54c68fecb9033e50fe386afe8cc54ca691ce2a9ec80f1438ea4d28",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "land-amendment-order-1986",
+   "short": "Land (Amendment) Order 1986",
+   "title": "Land (Amendment) Order, 1986",
+   "url": "https://www.ecolex.org/details/legislation/land-amendment-order-1986-no-27-of-1986-lex-faoc041370/",
+   "versions": [
+    {
+     "from": "1986-01-20",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les41370.pdf",
+     "sha256": "2b011566e2bfa94ff127df89eb73b1ee97b33371b9e812f498d862572ea75792",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "land-amendment-order-1992",
+   "short": "Land (Amendment) Order 1992",
+   "title": "Land (Amendment) Order, 1992",
+   "url": "https://www.ecolex.org/details/legislation/land-amendment-order-1992-no-6-of-1992-lex-faoc041388/",
+   "versions": [
+    {
+     "from": "1992-03-10",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les41388.pdf",
+     "sha256": "a12a660f503213f288d3a8ee5e988b50f1919b63e9791bea93b31c59025011f7",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "land-amendment-regulations-1993",
+   "short": "Land (Amendment) Regulations 1993",
+   "title": "Land (Amendment) Regulations, 1993",
+   "url": "https://www.ecolex.org/details/legislation/land-amendment-regulations-1993-l-n-no-96-of-1993-lex-faoc041398/",
+   "versions": [
+    {
+     "from": "1993-04-02",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les41398.pdf",
+     "sha256": "3ddeb466a85dccdd370849b4df21bb0ea59937fb6d546345c5154f719beb784b",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "tourism-act-2002",
+   "short": "Tourism Act 2002",
+   "title": "Tourism Act 2002",
+   "url": "https://www.ecolex.org/details/legislation/tourism-act-2002-no-4-of-2002-lex-faoc092310/",
+   "versions": [
+    {
+     "from": "2002-02-26",
+     "units": 1,
+     "source_url": "https://faolex.fao.org/docs/pdf/les92310.pdf",
+     "sha256": "96335ff3a3ec0384e467e728c64aaace5ae3274e28d96f32e536d510b4cb8abf",
+     "source_status": "secondary copy (FAOLEX, via ECOLEX)"
+    }
+   ]
+  },
+  {
+   "slug": "labour-code-order-1992",
+   "short": "Labour Code Order 1992",
+   "title": "Labour Code Order, 1992",
+   "url": "https://www.wipo.int/wipolex/en/legislation/details/12891",
+   "versions": [
+    {
+     "from": "1993-04-01",
+     "units": 1,
+     "source_url": "https://wipolex-res.wipo.int/edocs/lexdocs/laws/en/ls/ls012en.pdf",
+     "sha256": "f715fb3edbc93c12955936300388bbcc5cbd6945eb4537b9b51eeeefc15adc93",
+     "source_status": "secondary copy (WIPO Lex)"
+    }
+   ]
+  },
+  {
+   "slug": "constitution",
+   "short": "Constitution",
+   "title": "The Constitution of Lesotho",
+   "url": "https://www.gov.ls/wp-content/uploads/2019/02/Lesotho_Constitution.pdf",
+   "versions": [
+    {
+     "from": "1993-04-02",
+     "units": 1,
+     "source_url": "https://www.gov.ls/wp-content/uploads/2019/02/Lesotho_Constitution.pdf",
+     "sha256": "6ab6519513a523c8a6baf7a7f4175679d905695a4a267716453ec51238fcc21b",
+     "source_status": "official copy"
+    }
+   ]
+  },
+  {
+   "slug": "lesotho-constitution-commencement-order-1993",
+   "short": "Constitution (Commencement) Order 1993",
+   "title": "Lesotho Constitution (Commencement) Order, 1993",
+   "url": "https://www.gov.ls/wp-content/uploads/2019/02/Lesotho_Constitution.pdf",
+   "versions": [
+    {
+     "from": "1993-03-16",
+     "units": 1,
+     "source_url": "https://www.gov.ls/wp-content/uploads/2019/02/Lesotho_Constitution.pdf",
+     "sha256": "6ab6519513a523c8a6baf7a7f4175679d905695a4a267716453ec51238fcc21b",
+     "source_status": "official copy"
+    }
+   ]
+  },
+  {
+   "slug": "lesotho-constitution-commencement-amendment-order-1993",
+   "short": "Constitution (Commencement) (Amendment) Order 1993",
+   "title": "Lesotho Constitution (Commencement) (Amendment) Order, 1993",
+   "url": "https://www.gov.ls/wp-content/uploads/2019/02/Lesotho_Constitution.pdf",
+   "versions": [
+    {
+     "from": "1993-03-27",
+     "units": 1,
+     "source_url": "https://www.gov.ls/wp-content/uploads/2019/02/Lesotho_Constitution.pdf",
+     "sha256": "6ab6519513a523c8a6baf7a7f4175679d905695a4a267716453ec51238fcc21b",
+     "source_status": "official copy"
+    }
+   ]
+  },
+  {
+   "slug": "historical-monuments-relics-fauna-flora-act-1967",
+   "short": "Historical Monuments Act 1967",
+   "title": "Historical Monuments, Relics, Fauna and Flora Act, 1967",
+   "url": "https://www.wipo.int/wipolex/en/legislation/details/11312",
+   "versions": [
+    {
+     "from": "1967-12-22",
+     "units": 1,
+     "source_url": "https://wipolex-res.wipo.int/edocs/lexdocs/laws/en/ls/ls011en.pdf",
+     "sha256": "6f07915298a1ce6b2f5927a0cf5909ca9b199cb87c2a08031f8334db4348b155",
+     "source_status": "secondary copy (WIPO Lex)"
+    }
+   ]
+  },
+  {
+   "slug": "lesotho-telecommunications-authority-act-2000",
+   "short": "LTA Act 2000",
+   "title": "Lesotho Telecommunications Authority Act 2000",
+   "url": "https://www.wipo.int/wipolex/en/legislation/details/9017",
+   "versions": [
+    {
+     "from": "2000-06-09",
+     "units": 1,
+     "source_url": "https://wipolex-res.wipo.int/edocs/lexdocs/laws/en/ls/ls005en.pdf",
+     "sha256": "501bfbfa8abebdb0b49db620988d02c3683af29fd21221cba21235f5e8a7c4d7",
+     "source_status": "secondary copy (WIPO Lex)"
+    }
+   ]
+  },
+  {
+   "slug": "lesotho-telecommunications-authority-regulations-2001",
+   "short": "LTA Regulations 2001",
+   "title": "Lesotho Telecommunications Authority Regulations 2001",
+   "url": "https://www.wipo.int/wipolex/en/legislation/details/9340",
+   "versions": [
+    {
+     "from": "2001-03-27",
+     "units": 1,
+     "source_url": "https://wipolex-res.wipo.int/edocs/lexdocs/laws/en/ls/ls007en.pdf",
+     "sha256": "5f501ca640d84f09e880fb85bf1647461987b315bc6e9acd8eb3a0651c3f5339",
+     "source_status": "secondary copy (WIPO Lex)"
+    }
+   ]
+  },
+  {
+   "slug": "lesotho-telecommunications-authority-amendment-act-2001",
+   "short": "LTA (Amendment) Act 2001",
+   "title": "Lesotho Telecommunications Authority (Amendment) Act 2001",
+   "url": "https://www.wipo.int/wipolex/en/legislation/details/9343",
+   "versions": [
+    {
+     "from": "2001-05-30",
+     "units": 1,
+     "source_url": "https://wipolex-res.wipo.int/edocs/lexdocs/laws/en/ls/ls010en.pdf",
+     "sha256": "b39c2b809a58ba3f57c93fb41e8495131fbdca769295aa41f6b771d636cf326a",
+     "source_status": "secondary copy (WIPO Lex)"
+    }
+   ]
+  },
+  {
+   "slug": "lesotho-telecommunications-authority-broadcasting-rules-2004",
+   "short": "Broadcasting Rules 2004",
+   "title": "Lesotho Telecommunications Authority (Broadcasting) Rules 2004",
+   "url": "https://www.wipo.int/wipolex/en/legislation/details/9341",
+   "versions": [
+    {
+     "from": "2004-04-14",
+     "units": 1,
+     "source_url": "https://wipolex-res.wipo.int/edocs/lexdocs/laws/en/ls/ls008en.pdf",
+     "sha256": "b21d2a5e9f86348cde6856fe10fbb0d3fe614c56354c22dbee9663ed1671bd5b",
+     "source_status": "secondary copy (WIPO Lex)"
+    }
+   ]
+  },
+  {
+   "slug": "lesotho-telecommunications-authority-amendment-act-2006",
+   "short": "LTA (Amendment) Act 2006",
+   "title": "Lesotho Telecommunications Authority (Amendment) Act, 2006",
+   "url": "https://www.wipo.int/wipolex/en/legislation/details/9342",
+   "versions": [
+    {
+     "from": "2006-07-28",
+     "units": 1,
+     "source_url": "https://wipolex-res.wipo.int/edocs/lexdocs/laws/en/ls/ls009en.pdf",
+     "sha256": "08c822c4d971aa592bb1e528de6b37cf619026b96b6d4f8ea0d3c9d619a0e1fe",
+     "source_status": "secondary copy (WIPO Lex)"
+    }
+   ]
   }
  ]
 }

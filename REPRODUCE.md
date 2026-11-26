@@ -100,3 +100,76 @@ Model use at data-build time:
 - Children's Protection and Welfare Act: none at data-build time; units are parsed by code from the published page.
 - Arbitration Act: none at data-build time; units are parsed by code from the published page.
 - GPT-6 wrote extraction and validation code and selected the source boundaries. No model wrote or corrected legal text; native PDF text is extracted by code.
+
+## Laws added from PDF copies (2026-11-26)
+
+LesLII and the other AfricanLII sites now answer with a challenge, so 47 laws were added from copies that
+answer without one: WIPO Lex, FAOLEX (through ECOLEX's listing of Lesotho legislation) and the Government of Lesotho
+(gov.ls). Each law is one file, `<folder>/full-text.md`, read from the PDF's own text layer (no OCR by Lexifina; where
+the PDF is a Gazette scan the layer is the publisher's OCR and keeps its errors). Each commit carries `Source-status:`,
+`Text-source:`, `Source-sha256:` (of the PDF) and `In-force-basis:`. The Constitution and its two commencement Orders
+were first read from WIPO Lex and then corrected (`Kind: correction`) to the Government of Lesotho's copy of the same
+version. The scripts are in `lesotho-acq/tools` (`ecolex.py`, `faolex_dl.py`, `wipo_dl.py`, `extract.py`,
+`build_items.py`, `addlaw.py`, `correct.py`); they were written by Claude Code (Claude Opus 5.5). No model wrote or
+corrected legal text.
+
+Dates: the commencement the text or the source states; else, for a law that commences on publication, its Gazette day;
+else its Gazette day, as this repository dates an act whose commencement is not stated (the trailer says so).
+
+Held back, with no reliable date or text: the Companies Act 2011 and other WIPO Lex records whose PDFs carry no text
+layer; the Industrial Property Order 1989 as amended to 1997 and the Constitution as amended (consolidations with no
+date for the version); the First (1996) and Third (1998) Amendments to the Constitution (no Gazette day in the copy);
+pre-1966 proclamations printed in revised editions; and FAOLEX instruments with neither a commencement nor a Gazette
+day (among them the Local Government Act 1997, the Mines and Minerals Act 2005, the Prevention of Corruption and
+Economic Offences Act 1999 and the Stock Theft Act 2000). The gov.ls Gazette PDFs of 2018 to 2022 are scans without a
+text layer.
+
+| Folder | Title | In force | Source | Basis |
+| --- | --- | --- | --- | --- |
+| `land-act-2010` | Land Act 2010 | 2010-06-14 | FAOLEX, via ECOLEX | the Act commences on a day the Minister appoints by notice, which no source here gives; dated by its Gazette day (Government Gazette Extraordinary Vol. LV No. 42 of 14 June 2010, as the FAOLEX copy states), as this repository dates an act whose commencement is not stated |
+| `water-resources-act-1978` | Water Resources Act 1978 | 1979-04-01 | FAOLEX, via ECOLEX | date of commencement printed under the title in the published text: 1-4-79 (commencement notice LN 18 of 1979) |
+| `tourism-amendment-act-2006` | Tourism (Amendment) Act, 2006 | 2006-02-17 | FAOLEX, via ECOLEX | on publication in the Gazette (Government Gazette Extraordinary Vol. LI of Friday 17 February 2006); dated by that Gazette day |
+| `land-husbandry-act-1969` | Land Husbandry Act 1969 | 1969-05-16 | FAOLEX, via ECOLEX | date of commencement printed under the title in the published text: 16 May 1969 (assent 23 April 1969) |
+| `land-husbandry-amendment-act-1974` | Land Husbandry (Amendment) Act 1974 | 1975-02-28 | FAOLEX, via ECOLEX | date of commencement printed under the title in the published text: 28 February 1975 (assent 14 January 1975) |
+| `lesotho-highlands-development-authority-order-1986` | Lesotho Highlands Development Authority Order, 1986 | 1986-10-24 | FAOLEX, via ECOLEX | its commencement section: in operation on 24 October 1986 (printed Date of Commencement 24-10-86) |
+| `weeds-eradication-act-1969` | Weeds Eradication Act 1969 | 1969-05-16 | FAOLEX, via ECOLEX | date of commencement printed under the title in the published text: 16 May 1969 (assent 23 April 1969) |
+| `environment-act-2008` | Environment Act 2008 | 2008-12-05 | FAOLEX, via ECOLEX | the Act commences on a day the Minister appoints by notice, which no source here gives; dated by its Gazette day (Supplement No. 1 to Gazette No. 80 of 5 December 2008), as this repository dates an act whose commencement is not stated |
+| `water-act-2008` | Water Act, 2008 | 2008-12-30 | FAOLEX, via ECOLEX | section 1: on publication in the Gazette; the Laws.Africa copy gives the Act as published on 30 December 2008 |
+| `co-operative-societies-act-2000` | Co-operative Societies Act 2000 | 2000-09-15 | FAOLEX, via ECOLEX | on publication in the Gazette (Supplement No. 1 to Gazette No. 78 of 15 September 2000); dated by that Gazette day |
+| `deeds-registry-act-1967` | Deeds Registry Act 1967 | 1967-05-15 | FAOLEX, via ECOLEX | date of commencement printed under the title in the published text: 15 May 1967 (commencement notice GN 51 of 1967; assent 3 May 1967) |
+| `agricultural-marketing-act-1967` | Agricultural Marketing Act 1967 | 1967-07-14 | FAOLEX, via ECOLEX | date of commencement printed under the title in the published text: 14 July 1967 (assent 6 July 1967) |
+| `agricultural-marketing-egg-control-regulations-1969` | Agricultural Marketing (Egg Control) Regulations 1969 | 1969-08-29 | FAOLEX, via ECOLEX | printed under the notice number: "Commenced 29 August, 1969" |
+| `agricultural-marketing-egg-control-amendment-regulations-2014` | Agricultural Marketing (Egg Control) (Amendment) Regulations, 2014 | 2014-02-21 | FAOLEX, via ECOLEX | on publication in the Gazette (Government Gazette Vol. 59 No. 10 of Friday 21 February 2014); dated by that Gazette day |
+| `lewa-resolution-of-complaints-water-sewerage-rules-2013` | Lesotho Electricity and Water Authority (Resolution of Complaints for Water and Sewerage Services) Rules, 2013 | 2013-09-06 | FAOLEX, via ECOLEX | on publication in the Gazette (Government Gazette Vol. 58 No. 47 of Friday 6 September 2013); dated by that Gazette day |
+| `livestock-import-export-amendment-act-1984` | Importation and Exportation of Livestock and Livestock Products Proclamation (Amendment) Act 1984 | 1984-08-03 | FAOLEX, via ECOLEX | no commencement provision; dated by its Gazette day (Supplement No. 2 to Gazette No. 29 of 3 August 1984) |
+| `agricultural-marketing-dairy-products-regulations-1992` | Agricultural Marketing (Distribution of Dairy Products) Regulations, 1992 | 1992-10-02 | FAOLEX, via ECOLEX | on publication in the Gazette (Government Gazette Extraordinary Vol. XXXVII No. 115 of Monday 2 October 1992); dated by that Gazette day |
+| `lesotho-electricity-authority-act-2002` | Lesotho Electricity Authority Act 2002 | 2002-06-20 | FAOLEX, via ECOLEX | commencement not legible in the copy; dated by its Gazette day (Government Gazette Extraordinary Vol. XLVII No. 70 of Thursday 20 June 2002), as this repository dates an act whose commencement is not stated |
+| `lesotho-electricity-authority-amendment-act-2006` | Lesotho Electricity Authority (Amendment) Act 2006 | 2006-10-13 | FAOLEX, via ECOLEX | the Act commences on a day the Minister appoints by notice, which no source here gives; dated by its Gazette day (Supplement No. 1 to Gazette No. 81 of 13 October 2006), as this repository dates an act whose commencement is not stated |
+| `lesotho-electricity-authority-amendment-act-2011` | Lesotho Electricity Authority (Amendment) Act, 2011 | 2011-03-01 | FAOLEX, via ECOLEX | the Act commences on a day the Minister appoints by notice, which no source here gives; dated by its Gazette day (Government Gazette Extraordinary Vol. LVI No. 24 of Tuesday 1 March 2011), as this repository dates an act whose commencement is not stated |
+| `lea-application-for-licences-rules-2012` | Lesotho Electricity Authority (Application for Licences) Rules, 2012 | 2012-06-08 | FAOLEX, via ECOLEX | on publication in the Gazette (Government Gazette Vol. 57 No. 60 of Friday 8 June 2012); dated by that Gazette day |
+| `iodization-regulations-1999` | Lesotho Iodization Regulations, 1999 | 1999-03-10 | FAOLEX, via ECOLEX | on publication in the Gazette (Government Gazette Extraordinary Vol. XLIV No. 16 of Wednesday 10 March 1999); dated by that Gazette day |
+| `lewa-licence-fees-levies-water-sewerage-regulations-2013` | Lesotho Electricity and Water Authority (Licence Fees and Customer Levies for Water and Sewerage Services) Regulations, 2013 | 2013-09-27 | FAOLEX, via ECOLEX | on publication in the Gazette (Government Gazette Vol. 58 No. 56 of Friday 27 September 2013); dated by that Gazette day |
+| `disaster-management-act-1997` | Disaster Management Act 1997 | 1997-05-13 | FAOLEX, via ECOLEX | on publication in the Gazette (Government Gazette Extraordinary Vol. XLII No. 26 of Tuesday 13 May 1997); dated by that Gazette day |
+| `land-act-1979` | Land Act 1979 | 1979-12-14 | FAOLEX, via ECOLEX | the Act commences on a day the Minister appoints by notice, which no source here gives; dated by its Gazette day (Supplement No. 1 to Gazette No. 41 of 14 December 1979), as this repository dates an act whose commencement is not stated |
+| `land-regulations-1980` | Land Regulations 1980 | 1980-08-01 | FAOLEX, via ECOLEX | regulation 1: in operation on 1 August 1980 (published in Supplement No. 2 to Gazette No. 29 of 22 August 1980) |
+| `lea-resolution-of-disputes-rules-2010` | Lesotho Electricity Authority (Resolution of Disputes) Rules, 2010 | 2010-03-12 | FAOLEX, via ECOLEX | on publication in the Gazette (Supplement No. 1 to Gazette No. 19 of 12 March 2010); dated by that Gazette day |
+| `public-health-covid-19-regulations-2020` | Public Health (COVID-19) Regulations, 2020 | 2020-04-22 | FAOLEX, via ECOLEX | its commencement regulation: in operation on 22 April 2020 (Government Gazette Extraordinary Vol. 65 No. 34 of that day) |
+| `agricultural-marketing-import-of-sugar-regulations-1989` | Agricultural Marketing (Import of Sugar) Regulations, 1989 | 1989-12-15 | FAOLEX, via ECOLEX | on publication in the Gazette (Supplement No. 3 to Gazette No. 71 of 15 December 1989); dated by that Gazette day |
+| `forestry-act-1998` | Forestry Act 1998 | 1998-12-18 | FAOLEX, via ECOLEX | on publication in the Gazette (Supplement No. 1 to Gazette No. 91 of 18 December 1998); dated by that Gazette day |
+| `food-grain-self-sufficiency-fund-regulations-1980` | Food Grain Self-Sufficiency Fund Regulations 1980 | 1980-12-19 | FAOLEX, via ECOLEX | no commencement date legible; dated by its Gazette day (Supplement No. 2 to Gazette No. 46 of 19 December 1980) |
+| `water-resources-regulations-1980` | Water Resources Regulations 1980 | 1980-09-05 | FAOLEX, via ECOLEX | no commencement date legible; dated by its Gazette day (Supplement No. 2 to Gazette No. 31 of 5 September 1980) |
+| `land-agricultural-lease-regulations-1992` | Land (Agricultural Lease) Regulations, 1992 | 1992-05-29 | FAOLEX, via ECOLEX | no commencement date legible; dated by its Gazette day (Supplement No. 1 to Gazette No. 55 of 29 May 1992) |
+| `land-amendment-order-1986` | Land (Amendment) Order, 1986 | 1986-01-20 | FAOLEX, via ECOLEX | section 1: in operation on 20 January 1986 (published in Supplement No. 3 to Gazette No. 12 of 6 March 1987) |
+| `land-amendment-order-1992` | Land (Amendment) Order, 1992 | 1992-03-10 | FAOLEX, via ECOLEX | commencement not legible in the copy; dated by its Gazette day (Government Gazette Extraordinary Vol. XXXVII No. 25 of Tuesday 10 March 1992) |
+| `land-amendment-regulations-1993` | Land (Amendment) Regulations, 1993 | 1993-04-02 | FAOLEX, via ECOLEX | on publication in the Gazette (Government Gazette Extraordinary Vol. XXXVIII No. 54 of Friday 2 April 1993); dated by that Gazette day |
+| `tourism-act-2002` | Tourism Act 2002 | 2002-02-26 | FAOLEX, via ECOLEX | WIPO Lex and FAOLEX give entry into force 26 February 2002, the day of Government Gazette Extraordinary Vol. XLVII No. 18 |
+| `labour-code-order-1992` | Labour Code Order, 1992 | 1993-04-01 | WIPO Lex | WIPO Lex: entry into force 1 April 1993; section 1 brings the Code into operation on days the Minister appoints by notice |
+| `constitution` | The Constitution of Lesotho | 1993-04-02 | WIPO Lex | in operation on 2 April 1993, the day after the appointment of a Prime Minister Designate, under section 5 of Order No. 5 of 1993 as amended by Order No. 16 of 1993 (as the text's own note and WIPO Lex state) |
+| `lesotho-constitution-commencement-order-1993` | Lesotho Constitution (Commencement) Order, 1993 | 1993-03-16 | WIPO Lex | on publication in the Gazette (Government Gazette Extraordinary Vol. XXXVIII No. 35 of Tuesday 16 March 1993); dated by that Gazette day |
+| `lesotho-constitution-commencement-amendment-order-1993` | Lesotho Constitution (Commencement) (Amendment) Order, 1993 | 1993-03-27 | WIPO Lex | on publication in the Gazette (Government Gazette Extraordinary Vol. XXXVIII No. 43 of Saturday 27 March 1993); dated by that Gazette day |
+| `historical-monuments-relics-fauna-flora-act-1967` | Historical Monuments, Relics, Fauna and Flora Act, 1967 | 1967-12-22 | WIPO Lex | date of commencement printed under the title in the published text: 22 December 1967 (assent 13 December 1967); WIPO Lex gives the same entry into force |
+| `lesotho-telecommunications-authority-act-2000` | Lesotho Telecommunications Authority Act 2000 | 2000-06-09 | WIPO Lex | the Act commences on a day the Minister appoints by notice, which no source here gives; dated by its Gazette day (Government Gazette Extraordinary Vol. XLV No. 42 of Friday 9 June 2000), as this repository dates an act whose commencement is not stated |
+| `lesotho-telecommunications-authority-regulations-2001` | Lesotho Telecommunications Authority Regulations 2001 | 2001-03-27 | WIPO Lex | the instrument commences on a day the Minister appoints by notice, which no source here gives; dated by its Gazette day (Government Gazette Extraordinary Vol. XLVI No. 28 of Tuesday 27 March 2001), as this repository dates an act whose commencement is not stated |
+| `lesotho-telecommunications-authority-amendment-act-2001` | Lesotho Telecommunications Authority (Amendment) Act 2001 | 2001-05-30 | WIPO Lex | the Act commences on a day the Minister appoints by notice, which no source here gives; dated by its Gazette day (Government Gazette Extraordinary Vol. XLVI No. 44 of Wednesday 30 May 2001), as this repository dates an act whose commencement is not stated |
+| `lesotho-telecommunications-authority-broadcasting-rules-2004` | Lesotho Telecommunications Authority (Broadcasting) Rules 2004 | 2004-04-14 | WIPO Lex | on publication in the Gazette (Government Gazette Extraordinary Vol. XLIX No. 38 of Wednesday 14 April 2004); dated by that Gazette day |
+| `lesotho-telecommunications-authority-amendment-act-2006` | Lesotho Telecommunications Authority (Amendment) Act, 2006 | 2006-07-28 | WIPO Lex | on publication in the Gazette (Supplement No. 1 to Gazette No. 41 of 28 July 2006); dated by that Gazette day |

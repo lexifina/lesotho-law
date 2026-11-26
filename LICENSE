@@ -18,6 +18,28 @@ line; spacing, quotes and dashes were normalised; editorial notes, Part and Chap
 and the versions were arranged as git commits credited to the laws LesLII names for each change.
 The wording of the law was not changed. Neither LesLII nor Laws.Africa endorses this repository.
 
+Laws added on 2026-11-26 come from these sources, each with its own terms:
+
+  Government of Lesotho, https://www.gov.ls (the Constitution of Lesotho 1993 and Orders No. 5 and 16 of
+  1993, from https://www.gov.ls/wp-content/uploads/2019/02/Lesotho_Constitution.pdf, retrieved 2026-11-26).
+  Official text of Lesotho's law; the copy is marked "Government of Lesotho (c) All Rights Reserved-2000".
+
+  WIPO Lex, World Intellectual Property Organization, https://www.wipo.int/wipolex/ (retrieved 2026-11-26).
+  WIPO Lex reproduces national laws for information; terms of use: https://www.wipo.int/tools/en/disclaim.html.
+  Source: WIPO Lex.
+
+  FAOLEX, Food and Agriculture Organization of the United Nations, https://www.fao.org/faolex/, PDFs at
+  https://faolex.fao.org/docs/pdf/, found through ECOLEX, https://www.ecolex.org (retrieved 2026-11-26).
+  FAO's terms allow reproduction for non-commercial purposes with acknowledgement of FAO as the source
+  (https://www.fao.org/contact-us/terms/en/). Source: FAOLEX (FAO).
+
+  The Water Act, 2008 PDF in FAOLEX is Laws.Africa's: "There is no copyright on the legislative content";
+  Laws.Africa's formatting is CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Source: Laws.Africa.
+
+Changes made by Lexifina to these: the PDF's own text layer was read as is (no OCR by Lexifina), page
+headers and page numbers were dropped, and each law was put in one file; the wording was not changed.
+Neither FAO, WIPO nor the Government of Lesotho endorses this repository.
+
 Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the
 tools) are dedicated to the public domain under CC0 1.0 Universal:
 https://creativecommons.org/publicdomain/zero/1.0/legalcode
