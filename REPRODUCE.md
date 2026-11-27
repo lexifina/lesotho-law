@@ -176,8 +176,8 @@ text layer.
 
 ## Laws added from Laws.Africa Commons and Gazettes.Africa copies (2026-11-27)
 
-502 laws were added: 41 from Laws.Africa Legislation Commons EPUBs and 461 Acts and Legal
-Notices split out of 371 Lesotho Government Gazette issues (2003 to 2006 and 2021 to 2025) from the
+513 laws were added: 41 from Laws.Africa Legislation Commons EPUBs and 472 Acts and Legal
+Notices split out of 382 Lesotho Government Gazette issues (2003 to 2006 and 2021 to 2025) from the
 Gazettes.Africa archive. Both services are closed or no longer serve files, so every file was read from the Internet
 Archive's copy; LesLII, SAFLII and CommonLII answer with a challenge and were not used.
 
@@ -195,7 +195,7 @@ Archive's copy; LesLII, SAFLII and CommonLII answer with a challenge and were no
   `ls_gazette.py`, `ls_build.py`, `ls_docs.py`), written by Claude Code (Claude Opus 5.5); no model wrote or
   corrected legal text.
 
-Held (45):
+Held (33):
 
 - Registration of Births and Deaths Act, 1973 (act-1973-22): multiple commencements (partial commencement dates)
 - Workmen's Compensation Act, 1977 (act-1977-13): no commencement and no real publication day: Laws.Africa used 31 December of the year as a stand-in
@@ -209,7 +209,6 @@ Held (45):
 - Members of Parliament Salaries Act, 1998 (act-1998-18): no commencement and no real publication day: Laws.Africa used 31 December of the year as a stand-in
 - Police Service Act, 1998 (act-1998-7): multiple commencements (partial commencement dates)
 - Value Added Tax Act, 2001 (act-2001-9): no commencement and no real publication day: Laws.Africa used 31 December of the year as a stand-in
-- Supplementary Appropriation (2002/2003) Act 2003 (act-2003-7): commencement not readable: "1 st of April, 2002"
 - Income Tax (Amendment) Act 2004 (act-2004-2): commencement not readable: "15th August 200 I "
 - Supplementary Appropriation (2003/2004) Act, 2004 (act-2004-7): commencement not readable: "1st of April , 2004"
 - Appropriation (2005/2006) Act, 2005 (act-2005-6): commencement not readable: "first day of April"
@@ -219,24 +218,13 @@ Held (45):
 - Legal Aid Regulations, 1979 (ln-1979-32): no commencement and no real publication day: Laws.Africa used 31 December of the year as a stand-in
 - Labour Court Rules, 1994 (ln-1994-35): no commencement and no real publication day: Laws.Africa used 31 December of the year as a stand-in
 - Labour Appeal Court Rules, 2002 (ln-2002-158): no commencement and no real publication day: Laws.Africa used 31 December of the year as a stand-in
-- AFRICAN PIONEER CORPS (PENSIONS) NOTICE 2003 (ln-2003-104): commencement not readable: "1 st April 2003"
-- Fuel and Services Control (Fuel Price Decrease) Notice, 2003 (ln-2003-136): commencement not readable: "l st September, 2003"
-- Labour Code Wages (Amendment) Order, 2003 (ln-2003-146): commencement not readable: "I st October, 2003 "
-- Fuel and Services Control (Fuel Price Decrease) Notice, 2003 (ln-2003-182): commencement not readable: "I st ovember, 2003"
-- Fuel and Services Control (Fuel Price Decrease) Notice, 2003 (ln-2003-97): commencement not readable: "1 st July, 2003"
-- Fuel and Services Control (Fue l Price Increase) Notice, 2004 and shal I come into operation on the I st June, 2004 (ln-2004-102): commencement not readable: "into operation on the I st June, 2004"
-- Fuel and Services Control (Fuel Price Increase) Notice, 2004 (ln-2004-103): commencement not readable: "I st June, 2004"
 - Precious Stones (Prescription of Forms and Licence Fees) Regulations 2004 (ln-2004-149): commencement not readable: "elate of publ ication in the Gazette"
 - Statutory Salaries (Amendment or Schedule) Regulations, 2004 (ln-2004-169): commencement not readable: "l April , 2004"
 - Labour Code Wages (Amendment) Order, 2004 (ln-2004-177): commencement not readable: "I October 2004"
-- Fuel and Services Control (Fuel Price Increase) Notice, 2004 (ln-2004-187): commencement not readable: "I st ovember, 2004"
-- Fuel and Services Control (Fuel Price Increase) Notice, 2004 (ln-2004-43): commencement not readable: "I st March, 2004"
 - Statutory Salaries (Amendment of Schedule) Regulations, 2004 (ln-2004-84): commencement not readable: "I April, 2004"
 - Members of Parliament Salaries (Amendment of Schedule) Regulations 2004 (ln-2004-85): commencement not readable: "I April, 2004"
-- Fuel and Services Control (Fuel Price Increase) Notice, 2005 (ln-2005-29): commencement not readable: "21 st March, 2005"
 - STATUTORY SALARIES (AMENDMENT OF SCHEDULE) REGULATIONS, 2005 (ln-2005-36): commencement not readable: "1 st Apri I, 2005"
 - MEMBERS OF PARLIAMENT SALARIES (AMENDMENT OF SCHEDULE) REGULATIONS, 2005 (ln-2005-37): commencement not readable: "thelst April, 2005 "
-- Fuel and Services Control (Fuel Price Increase) Notice, 2005 (ln-2005-45): commencement not readable: "I st May, 2005 "
 - ln-2005-72 (ln-2005-72): no title found in the text layer
 - Subordinate Courts Order, 1988 (ord-1988-9): no commencement and no real publication day: Laws.Africa used 31 December of the year as a stand-in
 - Industrial Property Order, 1989 (ord-1989-5): no commencement and no real publication day: Laws.Africa used 31 December of the year as a stand-in
@@ -747,3 +735,14 @@ Held (45):
 | `legal-notices/2012/026-income-tax-monetary-amount-amendment-regulations-2012` | Income Tax (Monetary Amount) (Amendment) Regulations 2012 (Legal Notice 26 of 2012) | 2012-04-01 | Gazette | its commencement provision: in operation on 2012-04-01 (published in Government Gazette No. 16 of 2012-02-14) |
 | `legal-notices/2012/027-value-added-tax-amendment-regulations-2012` | Value Added Tax (Amendment) Regulations 2012 (Legal Notice 27 of 2012) | 2012-04-01 | Gazette | its commencement provision: in operation on 2012-04-01 (published in Government Gazette No. 16 of 2012-02-14) |
 | `justices-of-the-peace-and-commissioners-of-oaths-proclamation` | Justices of the Peace and Commissioners of Oaths Proclamation (Proclamation 13 of 1945) | 1948-09-24 | Commons | the commencement Laws.Africa's copy states: "Commenced on 24 September 1948" |
+| `supplementary-appropriation-2002-2003-act-2003` | Supplementary Appropriation (2002/2003) Act 2003 (Act 7 of 2003) | 2002-04-01 | Gazette | its commencement provision: in operation on 2002-04-01 (published in Government Gazette Extraordinary No. 69 of 2003-08-04) |
+| `legal-notices/2003/104-african-pioneer-corps-pensions-notice-2003` | AFRICAN PIONEER CORPS (PENSIONS) NOTICE 2003 (Legal Notice 104 of 2003) | 2003-04-01 | Gazette | its commencement provision: in operation on 2003-04-01 (published in Government Gazette Extraordinary No. 59 of 2003-07-03) |
+| `legal-notices/2003/097-fuel-and-services-control-fuel-price-decrease-notice-2003` | Fuel and Services Control (Fuel Price Decrease) Notice 2003 (Legal Notice 97 of 2003) | 2003-07-01 | Gazette | its commencement provision: in operation on 2003-07-01 (published in Government Gazette Extraordinary No. 54 of 2003-06-30) |
+| `legal-notices/2003/136-fuel-and-services-control-fuel-price-decrease-notice-2003` | Fuel and Services Control (Fuel Price Decrease) Notice 2003 (Legal Notice 136 of 2003) | 2003-09-01 | Gazette | its commencement provision: in operation on 2003-09-01 (published in Government Gazette Extraordinary No. 79 of 2003-09-01) |
+| `legal-notices/2003/146-labour-code-wages-amendment-order-2003` | Labour Code Wages (Amendment) Order 2003 (Legal Notice 146 of 2003) | 2003-10-01 | Gazette | its commencement provision: in operation on 2003-10-01 (published in Government Gazette Extraordinary No. 85 of 2003-09-29) |
+| `legal-notices/2003/182-fuel-and-services-control-fuel-price-decrease-notice-2003` | Fuel and Services Control (Fuel Price Decrease) Notice 2003 (Legal Notice 182 of 2003) | 2003-11-01 | Gazette | its commencement provision: in operation on 2003-11-01 (published in Government Gazette Extraordinary No. 98 of 2003-10-30) |
+| `legal-notices/2004/043-fuel-and-services-control-fuel-price-increase-notice-2004` | Fuel and Services Control (Fuel Price Increase) Notice 2004 (Legal Notice 43 of 2004) | 2004-03-01 | Gazette | its commencement provision: in operation on 2004-03-01 (published in Government Gazette Extraordinary No. 20 of 2004-03-01) |
+| `legal-notices/2004/103-fuel-and-services-control-fuel-price-increase-notice-2004` | Fuel and Services Control (Fuel Price Increase) Notice 2004 (Legal Notice 103 of 2004) | 2004-06-01 | Gazette | its commencement provision: in operation on 2004-06-01 (published in Government Gazette Extraordinary No. 59 of 2004-05-31) |
+| `legal-notices/2004/187-fuel-and-services-control-fuel-price-increase-notice-2004` | Fuel and Services Control (Fuel Price Increase) Notice 2004 (Legal Notice 187 of 2004) | 2004-11-01 | Gazette | its commencement provision: in operation on 2004-11-01 (published in Government Gazette Extraordinary No. 106 of 2004-10-28) |
+| `legal-notices/2005/029-fuel-and-services-control-fuel-price-increase-notice-2005` | Fuel and Services Control (Fuel Price Increase) Notice 2005 (Legal Notice 29 of 2005) | 2005-03-21 | Gazette | its commencement provision: in operation on 2005-03-21 (published in Government Gazette Extraordinary No. 27 of 2005-03-17) |
+| `legal-notices/2005/045-fuel-and-services-control-fuel-price-increase-notice-2005` | Fuel and Services Control (Fuel Price Increase) Notice 2005 (Legal Notice 45 of 2005) | 2005-05-01 | Gazette | its commencement provision: in operation on 2005-05-01 (published in Government Gazette Extraordinary No. 42 of 2005-04-28) |
