@@ -1,0 +1,7 @@
+# Income Tax (Amendment of Monetary Amounts) Regulations 2024
+
+Income Tax (Amendment of Monetary Amounts) Regulations 2024 · 1 version, in force from 2024-04-01 (Legal Notice 25 of 2024) · secondary copy: <https://archive.gazettes.africa/archive/ls/2024/ls-government-gazette-dated-2024-04-05-no-24.pdf>
+
+| Provision | File | Changes | Last changed |
+| --- | --- | ---: | --- |
+| full-text | [full-text.md](full-text.md) | 0 |  |

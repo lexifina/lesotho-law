@@ -40,6 +40,25 @@ Changes made by Lexifina to these: the PDF's own text layer was read as is (no O
 headers and page numbers were dropped, and each law was put in one file; the wording was not changed.
 Neither FAO, WIPO nor the Government of Lesotho endorses this repository.
 
+Laws added on 2026-11-27 come from these sources, each with its own terms:
+
+  Laws.Africa Legislation Commons, https://commons.laws.africa (Laws.Africa's renderings of LesLII's Akoma
+  Ntoso documents). Commons no longer offers downloads (its download links answer "410 Gone"), so each EPUB
+  was read from the Internet Archive's copy (https://web.archive.org), retrieved 2026-11-27. The archived pages
+  state "By Laws.Africa and contributors. Licensed under CC-BY" (later pages: CC BY-NC-SA 4.0,
+  https://creativecommons.org/licenses/by-nc-sa/4.0/). Source: Laws.Africa Commons and LesLII.
+
+  Gazettes.Africa, Laws.Africa's archive of African government gazettes (service closed in 2026). Each
+  Lesotho Government Gazette PDF was read from the Internet Archive's copy of
+  https://archive.gazettes.africa/archive/ls/..., retrieved 2026-11-27. The gazettes are the Government of
+  Lesotho's official publications; Gazettes.Africa offered them freely to the public. Source: Gazettes.Africa.
+
+Changes made by Lexifina to these: Commons texts were converted to one Markdown file per section (Part and
+Chapter headings and editorial remarks left out); gazette texts were split at each Act and Legal Notice
+heading, page numbers dropped, and each instrument put in one file, the text layer read as is (no OCR by
+Lexifina; the layer of a scanned gazette is the publisher's OCR and keeps its errors). The wording was not
+changed. Neither Laws.Africa nor the Government of Lesotho endorses this repository.
+
 Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the
 tools) are dedicated to the public domain under CC0 1.0 Universal:
 https://creativecommons.org/publicdomain/zero/1.0/legalcode
